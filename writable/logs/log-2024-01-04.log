@@ -1,0 +1,51 @@
+CRITICAL - 2024-01-04 13:31:02 --> Undefined property: App\Controllers\Rbi\Blotter::$RbiModel
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Blotter.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 127)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Blotter->addNewBlotter()
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Blotter))
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-01-04 13:50:40 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2024-01-04 13:50:40 --> Column 'deleted_at' in where clause is ambiguous
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(53): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(174): Hermawan\DataTables\DataTableQuery->countAll()
+#6 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Blotter.php(83): Hermawan\DataTables\DataTable->toJson(true)
+#7 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Blotter->getBlotterList()
+#8 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Blotter))
+#9 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-01-04 13:51:03 --> Column 'actor' in field list is ambiguous
+CRITICAL - 2024-01-04 13:51:03 --> Column 'actor' in field list is ambiguous
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `bl_id`,...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bl_id`,...')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bl_id`,...')
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `bl_id`,...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Blotter.php(83): Hermawan\DataTables\DataTable->toJson(true)
+#8 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Blotter->getBlotterList()
+#9 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Blotter))
+#10 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-01-04 13:51:11 --> Column 'created_at' in field list is ambiguous
+CRITICAL - 2024-01-04 13:51:11 --> Column 'created_at' in field list is ambiguous
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `bl_id`,...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bl_id`,...')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bl_id`,...')
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `bl_id`,...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Blotter.php(83): Hermawan\DataTables\DataTable->toJson(true)
+#8 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Blotter->getBlotterList()
+#9 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Blotter))
+#10 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#12 {main}

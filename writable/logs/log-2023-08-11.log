@@ -1,0 +1,55 @@
+CRITICAL - 2023-08-11 19:13:22 --> Trying to access array offset on value of type bool
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/systems/systemInfo.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 45, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('systems/systemI...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Systems.php(69): view('systems/systemI...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Systems->system_info('assets', 'media', 'avatars', '300-11.jpg')
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Systems))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-11 19:13:22 --> Trying to access array offset on value of type bool
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/systems/systemInfo.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 45, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('systems/systemI...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Systems.php(69): view('systems/systemI...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Systems->system_info('assets', 'media', 'avatars', '300-12.jpg')
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Systems))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-11 19:13:22 --> Trying to access array offset on value of type bool
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/systems/systemInfo.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 45, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('systems/systemI...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Systems.php(69): view('systems/systemI...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Systems->system_info('assets', 'media', 'avatars', '300-2.jpg')
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Systems))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-11 19:13:22 --> Trying to access array offset on value of type bool
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/systems/systemInfo.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 45, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('systems/systemI...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Systems.php(69): view('systems/systemI...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Systems->system_info('assets', 'media', 'avatars', '300-7.jpg')
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Systems))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-11 19:13:22 --> Trying to access array offset on value of type bool
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/systems/systemInfo.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 45, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('systems/systemI...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Systems.php(69): view('systems/systemI...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Systems->system_info('assets', 'media', 'avatars', '300-20.jpg')
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Systems))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}

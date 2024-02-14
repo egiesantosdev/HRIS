@@ -1,0 +1,137 @@
+CRITICAL - 2024-02-13 09:41:03 --> Undefined variable $insert
+#0 /Applications/MAMP/htdocs/baliwag/hris/app/Controllers/Users.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 78)
+#1 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Users->addUser()
+#2 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/hris/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-02-13 09:41:41 --> Undefined variable $userInfo
+#0 /Applications/MAMP/htdocs/baliwag/hris/app/Controllers/Users.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 87)
+#1 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Users->addUser()
+#2 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/hris/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-02-13 09:42:16 --> Duplicate entry 'admin.darrel@baliwag.gov.ph' for key 'email'
+ERROR - 2024-02-13 09:42:47 --> Duplicate entry 'admin.darrel@baliwag.gov.ph' for key 'email'
+ERROR - 2024-02-13 09:43:05 --> Operand should contain 1 column(s)
+CRITICAL - 2024-02-13 09:43:05 --> Undefined variable $insertinsertUser
+#0 /Applications/MAMP/htdocs/baliwag/hris/app/Controllers/Users.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 90)
+#1 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Users->addUser()
+#2 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/hris/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-02-13 09:43:42 --> Operand should contain 1 column(s)
+CRITICAL - 2024-02-13 09:43:42 --> Undefined variable $insertinsertUser
+#0 /Applications/MAMP/htdocs/baliwag/hris/app/Controllers/Users.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 91)
+#1 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Users->addUser()
+#2 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/hris/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-02-13 09:45:33 --> Operand should contain 1 column(s)
+CRITICAL - 2024-02-13 09:45:33 --> Undefined variable $insertinsertUser
+#0 /Applications/MAMP/htdocs/baliwag/hris/app/Controllers/Users.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 93)
+#1 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Users->addUser()
+#2 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/hris/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-02-13 09:46:01 --> Duplicate entry 'admin.darrel@baliwag.gov.ph' for key 'email'
+ERROR - 2024-02-13 09:46:25 --> Operand should contain 1 column(s)
+CRITICAL - 2024-02-13 09:54:53 --> Attempt to read property "user_id" on int
+#0 /Applications/MAMP/htdocs/baliwag/hris/app/Controllers/Users.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 97)
+#1 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Users->addUser()
+#2 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/hris/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-02-13 11:24:23 --> Too few arguments to function App\Models\MasterModel::update(), 3 passed in /Applications/MAMP/htdocs/baliwag/hris/app/Controllers/Users.php on line 125 and exactly 4 expected
+#0 /Applications/MAMP/htdocs/baliwag/hris/app/Controllers/Users.php(125): App\Models\MasterModel->update('users', Array, Array)
+#1 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Users->updateUser()
+#2 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/hris/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-02-13 11:24:50 --> Unknown column 'user_id' in 'where clause'
+CRITICAL - 2024-02-13 13:25:01 --> Undefined constant "App\Models\tru"
+#0 /Applications/MAMP/htdocs/baliwag/hris/app/Controllers/Users.php(125): App\Models\MasterModel->update('users', Array, Array)
+#1 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Users->updateUser()
+#2 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/hris/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-02-13 13:39:27 --> Undefined constant "App\Models\tru"
+#0 /Applications/MAMP/htdocs/baliwag/hris/app/Controllers/Users.php(125): App\Models\MasterModel->update('users', Array, Array)
+#1 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Users->updateUser()
+#2 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/hris/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-02-13 13:40:38 --> Undefined constant "App\Models\tru"
+#0 /Applications/MAMP/htdocs/baliwag/hris/app/Controllers/Users.php(125): App\Models\MasterModel->update('users', Array, Array)
+#1 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Users->updateUser()
+#2 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/hris/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-02-13 13:40:57 --> Undefined constant "App\Models\tru"
+#0 /Applications/MAMP/htdocs/baliwag/hris/app/Controllers/Users.php(125): App\Models\MasterModel->update('users', Array, Array)
+#1 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Users->updateUser()
+#2 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/hris/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-02-13 13:48:18 --> Undefined variable $insertUser
+#0 /Applications/MAMP/htdocs/baliwag/hris/app/Controllers/Users.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 129)
+#1 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Users->updateUser()
+#2 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/hris/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-02-13 13:48:30 --> Undefined variable $insertUser
+#0 /Applications/MAMP/htdocs/baliwag/hris/app/Controllers/Users.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 129)
+#1 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Users->updateUser()
+#2 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/hris/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-02-13 14:46:37 --> Undefined array key "message"
+#0 /Applications/MAMP/htdocs/baliwag/hris/app/Controllers/Users.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 144)
+#1 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Users->updateUser()
+#2 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/hris/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-02-13 14:47:47 --> Array to string conversion
+#0 /Applications/MAMP/htdocs/baliwag/hris/app/Controllers/Users.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/Applications/M...', 144)
+#1 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Users->updateUser()
+#2 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/hris/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-02-13 15:48:53 --> Unknown column 'firstnames' in 'field list'
+ERROR - 2024-02-13 15:49:00 --> Unknown column 'firstnames' in 'field list'
+ERROR - 2024-02-13 15:49:25 --> Unknown column 'firstnames' in 'field list'
+ERROR - 2024-02-13 15:50:14 --> Unknown column 'firstnames' in 'field list'
+ERROR - 2024-02-13 15:50:52 --> Unknown column 'firstnames' in 'field list'
+ERROR - 2024-02-13 15:51:32 --> Unknown column 'firstnames' in 'field list'
+ERROR - 2024-02-13 15:51:38 --> Unknown column 'firstnames' in 'field list'
+ERROR - 2024-02-13 15:52:18 --> Unknown column 'firstnames' in 'field list'
+ERROR - 2024-02-13 15:53:11 --> Unknown column 'middlenames' in 'field list'
+ERROR - 2024-02-13 15:54:16 --> Unknown column 'middlenames' in 'field list'
+ERROR - 2024-02-13 15:55:29 --> Unknown column 'middlenames' in 'field list'
+CRITICAL - 2024-02-13 16:03:25 --> Too few arguments to function App\Controllers\Users::resetUserPassword(), 0 passed in /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Users->resetUserPassword()
+#1 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/baliwag/hris/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-02-13 16:03:51 --> Undefined variable $updateUserInfo
+#0 /Applications/MAMP/htdocs/baliwag/hris/app/Controllers/Users.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 169)
+#1 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Users->resetUserPassword('2')
+#2 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/baliwag/hris/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/hris/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}

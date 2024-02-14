@@ -1,0 +1,80 @@
+CRITICAL - 2023-09-19 10:22:46 --> Undefined variable $request
+#0 C:\xampp\htdocs\blink\app\Controllers\Senior\Senior.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 99)
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Senior\Senior->createSenior()
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Senior\Senior))
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-19 11:01:27 --> Cannot declare class App\Models\CitizensModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-19 11:02:49 --> CodeIgniter\Database\BaseBuilder::insert(): Argument #1 ($set) must be of type ?array, string given, called in C:\xampp\htdocs\blink\app\Models\SeniorsModel.php on line 134
+#0 C:\xampp\htdocs\blink\app\Models\SeniorsModel.php(134): CodeIgniter\Database\BaseBuilder->insert('senior_citizens')
+#1 C:\xampp\htdocs\blink\app\Controllers\Senior\Senior.php(105): App\Models\SeniorsModel->insert(Array, 'senior_citizens')
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Senior\Senior->createSenior()
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Senior\Senior))
+#4 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-09-19 11:04:12 --> Unknown column 'age' in 'field list'
+ERROR - 2023-09-19 11:05:19 --> Unknown column 'age' in 'field list'
+CRITICAL - 2023-09-19 11:06:13 --> Too few arguments to function App\Models\CitizensModel::update(), 1 passed in C:\xampp\htdocs\blink\app\Controllers\Senior\Senior.php on line 108 and at least 2 expected
+#0 C:\xampp\htdocs\blink\app\Controllers\Senior\Senior.php(108): App\Models\CitizensModel->update(Array)
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Senior\Senior->createSenior()
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Senior\Senior))
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-19 11:09:54 --> syntax error, unexpected token "=>"
+#0 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/senior/senior/...')
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/senior/senior/...')
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-19 14:36:27 --> syntax error, unexpected variable "$view_data"
+#0 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/senior/senior/...')
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/senior/senior/...')
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-19 14:36:57 --> Too few arguments to function App\Controllers\Senior\Senior::test(), 0 passed in C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Senior\Senior->test()
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Senior\Senior))
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-09-19 14:37:01 --> Table 'baliwagc_seniors_db.baliwagc_seniors_db' doesn't exist
+ERROR - 2023-09-19 14:37:12 --> Table 'baliwagc_seniors_db.baliwagc_seniors_db' doesn't exist
+CRITICAL - 2023-09-19 16:10:25 --> syntax error, unexpected token "public", expecting end of file
+#0 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('senior/modules/...', Array, true)
+#2 C:\xampp\htdocs\blink\app\Controllers\Senior\Senior.php(39): view('senior/modules/...', Array)
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Senior\Senior->test()
+#4 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Senior\Senior))
+#5 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-19 16:13:02 --> Undefined property: stdClass::$first_namehouse_number
+#0 C:\xampp\htdocs\blink\app\Views\senior\modules\test.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 119)
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('senior/modules/...', Array, true)
+#4 C:\xampp\htdocs\blink\app\Controllers\Senior\Senior.php(39): view('senior/modules/...', Array)
+#5 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Senior\Senior->test()
+#6 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Senior\Senior))
+#7 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-19 16:20:42 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('senior/modules/...', Array, true)
+#3 C:\xampp\htdocs\blink\app\Controllers\Senior\Senior.php(39): view('senior/modules/...', Array)
+#4 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Senior\Senior->test()
+#5 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Senior\Senior))
+#6 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-09-19 16:30:08 --> Unknown column 'sex' in 'field list'

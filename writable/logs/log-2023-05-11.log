@@ -1,0 +1,1123 @@
+CRITICAL - 2023-05-11 09:58:07 --> Invalid argument supplied for foreach()
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/hris/dashboards/admin_assistant.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Applications/M...', 50, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('hris/dashboards...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Dashboard.php(77): view('hris/dashboards...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Dashboard->index()
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Dashboard))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-11 10:01:26 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+CRITICAL - 2023-05-11 10:01:26 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `auth_gr...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `auth_gr...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `auth_gr...')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `auth_gr...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Authorization/GroupModel.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Collectors/Auth.php(67): Myth\Auth\Authorization\GroupModel->getGroupsForUser(4)
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/BaseCollector.php(224): Myth\Auth\Collectors\Auth->display()
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(90): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#8 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(368): CodeIgniter\Debug\Toolbar->run(1683770486.6179, 0.0682, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#9 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#10 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#11 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/hris/dashboard', 'after')
+#12 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-05-11 10:01:27 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+CRITICAL - 2023-05-11 10:01:27 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `auth_gr...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `auth_gr...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `auth_gr...')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `auth_gr...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Authorization/GroupModel.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Collectors/Auth.php(67): Myth\Auth\Authorization\GroupModel->getGroupsForUser(4)
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/BaseCollector.php(224): Myth\Auth\Collectors\Auth->display()
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(90): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#8 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(368): CodeIgniter\Debug\Toolbar->run(1683770487.883, 0.0522, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#9 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#10 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#11 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/hris/dashboard', 'after')
+#12 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-05-11 10:08:44 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+CRITICAL - 2023-05-11 10:08:44 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `auth_gr...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `auth_gr...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `auth_gr...')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `auth_gr...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Authorization/GroupModel.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Collectors/Auth.php(67): Myth\Auth\Authorization\GroupModel->getGroupsForUser(4)
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/BaseCollector.php(224): Myth\Auth\Collectors\Auth->display()
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(90): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#8 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(368): CodeIgniter\Debug\Toolbar->run(1683770924.6951, 0.0604, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#9 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#10 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#11 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/hris/employee/...', 'after')
+#12 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-05-11 10:08:49 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+CRITICAL - 2023-05-11 10:08:49 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `auth_gr...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `auth_gr...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `auth_gr...')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `auth_gr...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Authorization/GroupModel.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Collectors/Auth.php(67): Myth\Auth\Authorization\GroupModel->getGroupsForUser(4)
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/BaseCollector.php(224): Myth\Auth\Collectors\Auth->display()
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(90): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#8 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(368): CodeIgniter\Debug\Toolbar->run(1683770929.4623, 0.0528, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#9 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#10 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#11 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/hris/dashboard', 'after')
+#12 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-05-11 10:15:20 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+CRITICAL - 2023-05-11 10:15:20 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `auth_gr...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `auth_gr...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `auth_gr...')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `auth_gr...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Authorization/GroupModel.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Collectors/Auth.php(67): Myth\Auth\Authorization\GroupModel->getGroupsForUser(4)
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/BaseCollector.php(224): Myth\Auth\Collectors\Auth->display()
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(90): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#8 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(368): CodeIgniter\Debug\Toolbar->run(1683771320.3559, 0.0634, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#9 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#10 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#11 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/hris/employee/...', 'after')
+#12 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-05-11 10:22:48 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+CRITICAL - 2023-05-11 10:22:48 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `auth_gr...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `auth_gr...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `auth_gr...')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `auth_gr...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Authorization/GroupModel.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Collectors/Auth.php(67): Myth\Auth\Authorization\GroupModel->getGroupsForUser(4)
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/BaseCollector.php(224): Myth\Auth\Collectors\Auth->display()
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(90): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#8 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(368): CodeIgniter\Debug\Toolbar->run(1683771768.6886, 0.0579, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#9 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#10 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#11 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/hris/employee/...', 'after')
+#12 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-05-11 10:23:08 --> file_put_contents(http://localhost:8888/baliwag/systems/public/assets/media/employees/employee.jpg): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', '/Applications/M...', 222, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(222): file_put_contents('http://localhos...', 'u\xABZ\x8Af\xA0{\xF8\xE9z\x06\xDA\xB1\xEE\xB8...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->save_image()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-11 10:23:08 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-11 10:25:02 --> file_put_contents(http://localhost:8888/baliwag/systems/public/assets/media/employees/employee.jpg): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', '/Applications/M...', 225, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(225): file_put_contents('http://localhos...', 'u\xABZ\x8Af\xA0{\xF8\xE9z\x06\xDA\xB1\xEE\xB8...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->save_image()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-11 10:25:02 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-11 10:30:21 --> file_put_contents(http://localhost:8888/baliwag/systems/public/assets/media/employees/employee.jpg): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', '/Applications/M...', 227, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(227): file_put_contents('http://localhos...', '\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->save_image()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-11 10:30:21 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-11 10:31:29 --> file_put_contents(http://localhost:8888/baliwag/systems/public/assets/media/employees/employee.jpg): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', '/Applications/M...', 228, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(228): file_put_contents('http://localhos...', '\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->save_image()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-11 10:31:29 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-11 10:38:02 --> file_put_contents(http://localhost:8888/baliwag/systems/public/assets/media/employees/employee.jpg645c550a27f9f.png): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', '/Applications/M...', 240, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(240): file_put_contents('http://localhos...', '\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->save_image()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-11 10:38:02 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-11 10:38:02 --> file_put_contents(http://localhost:8888/baliwag/systems/public/assets/media/employees/employee.jpg645c550a2bbc8.png): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', '/Applications/M...', 240, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(240): file_put_contents('http://localhos...', '\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->save_image()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-11 10:38:02 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-11 10:38:09 --> file_put_contents(http://localhost:8888/baliwag/systems/public/assets/media/employees/employee.jpg645c551129b24.png): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', '/Applications/M...', 240, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(240): file_put_contents('http://localhos...', '\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->save_image()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-11 10:38:09 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-11 10:38:18 --> file_put_contents(http://localhost:8888/baliwag/systems/public/assets/media/employees/employee.jpg645c551aa0a29.png): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', '/Applications/M...', 240, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(240): file_put_contents('http://localhos...', '\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->save_image()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-11 10:38:18 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-05-11 10:44:51 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+CRITICAL - 2023-05-11 10:44:51 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `auth_gr...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `auth_gr...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `auth_gr...')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `auth_gr...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Authorization/GroupModel.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Collectors/Auth.php(67): Myth\Auth\Authorization\GroupModel->getGroupsForUser(4)
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/BaseCollector.php(224): Myth\Auth\Collectors\Auth->display()
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(90): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#8 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(368): CodeIgniter\Debug\Toolbar->run(1683773091.294, 0.0632, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#9 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#10 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#11 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/hris/employee/...', 'after')
+#12 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-05-11 10:44:57 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+CRITICAL - 2023-05-11 10:44:57 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `auth_gr...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `auth_gr...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `auth_gr...')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `auth_gr...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Authorization/GroupModel.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Collectors/Auth.php(67): Myth\Auth\Authorization\GroupModel->getGroupsForUser(4)
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/BaseCollector.php(224): Myth\Auth\Collectors\Auth->display()
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(90): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#8 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(368): CodeIgniter\Debug\Toolbar->run(1683773097.5281, 0.048, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#9 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#10 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#11 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/hris/employee/...', 'after')
+#12 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-05-11 10:45:13 --> Undefined variable: output_file
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(232): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 232, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->save_image()
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-11 10:45:34 --> file_put_contents(http://localhost:8888/baliwag/systems/public/assets/media/employees/employee.jpg): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', '/Applications/M...', 232, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(232): file_put_contents('http://localhos...', '\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->save_image()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-11 10:45:34 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-11 10:46:34 --> file_put_contents(http://localhost:8888/baliwag/systems/public/employee.jpg): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', '/Applications/M...', 233, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(233): file_put_contents('http://localhos...', '\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->save_image()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-11 10:46:34 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-11 10:48:55 --> utf8_encode() expects exactly 1 parameter, 2 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'utf8_encode() e...', '/Applications/M...', 233, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(233): utf8_encode('http://localhos...', '\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->save_image()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-11 10:48:55 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-11 10:48:57 --> file_get_contents(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/Applications/M...', 233, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(233): file_get_contents('')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->save_image()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-05-11 11:04:39 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+CRITICAL - 2023-05-11 11:04:39 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `auth_gr...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `auth_gr...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `auth_gr...')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `auth_gr...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Authorization/GroupModel.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Collectors/Auth.php(67): Myth\Auth\Authorization\GroupModel->getGroupsForUser(4)
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/BaseCollector.php(224): Myth\Auth\Collectors\Auth->display()
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(90): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#8 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(368): CodeIgniter\Debug\Toolbar->run(1683774279.7392, 0.0653, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#9 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#10 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#11 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/hris/employee/...', 'after')
+#12 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-05-11 11:14:22 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+CRITICAL - 2023-05-11 11:14:22 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `auth_gr...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `auth_gr...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `auth_gr...')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `auth_gr...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Authorization/GroupModel.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Collectors/Auth.php(67): Myth\Auth\Authorization\GroupModel->getGroupsForUser(4)
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/BaseCollector.php(224): Myth\Auth\Collectors\Auth->display()
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(90): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#8 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(368): CodeIgniter\Debug\Toolbar->run(1683774862.2385, 0.0626, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#9 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#10 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#11 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/hris/employee/...', 'after')
+#12 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-05-11 11:19:19 --> Undefined variable: employeeInfo
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(227): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 227, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->save_image()
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-05-11 11:19:40 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+CRITICAL - 2023-05-11 11:19:40 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `auth_gr...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `auth_gr...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `auth_gr...')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `auth_gr...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Authorization/GroupModel.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Collectors/Auth.php(67): Myth\Auth\Authorization\GroupModel->getGroupsForUser(4)
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/BaseCollector.php(224): Myth\Auth\Collectors\Auth->display()
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(90): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#8 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(368): CodeIgniter\Debug\Toolbar->run(1683775180.5446, 0.0554, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#9 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#10 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#11 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/hris/employee/...', 'after')
+#12 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-05-11 11:19:45 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+CRITICAL - 2023-05-11 11:19:45 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `auth_gr...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `auth_gr...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `auth_gr...')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `auth_gr...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Authorization/GroupModel.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Collectors/Auth.php(67): Myth\Auth\Authorization\GroupModel->getGroupsForUser(4)
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/BaseCollector.php(224): Myth\Auth\Collectors\Auth->display()
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(90): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#8 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(368): CodeIgniter\Debug\Toolbar->run(1683775185.0125, 0.0535, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#9 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#10 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#11 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/hris/employee/...', 'after')
+#12 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-05-11 11:28:01 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+CRITICAL - 2023-05-11 11:28:01 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `auth_gr...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `auth_gr...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `auth_gr...')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `auth_gr...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Authorization/GroupModel.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Collectors/Auth.php(67): Myth\Auth\Authorization\GroupModel->getGroupsForUser(4)
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/BaseCollector.php(224): Myth\Auth\Collectors\Auth->display()
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(90): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#8 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(368): CodeIgniter\Debug\Toolbar->run(1683775681.0193, 0.0631, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#9 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#10 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#11 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/hris/employee/...', 'after')
+#12 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-05-11 11:34:29 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+CRITICAL - 2023-05-11 11:34:29 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `auth_gr...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `auth_gr...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `auth_gr...')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `auth_gr...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Authorization/GroupModel.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Collectors/Auth.php(67): Myth\Auth\Authorization\GroupModel->getGroupsForUser(4)
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/BaseCollector.php(224): Myth\Auth\Collectors\Auth->display()
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(90): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#8 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(368): CodeIgniter\Debug\Toolbar->run(1683776069.1186, 0.0641, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#9 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#10 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#11 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/hris/employee/...', 'after')
+#12 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-05-11 11:47:04 --> Class 'App\Models\Model' not found
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(264): include_once()
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mast...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mast...')
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Libraries/TemplateLib.php(10): spl_autoload_call('App\\Models\\Mast...')
+#5 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Dashboard.php(14): App\Libraries\TemplateLib::userInformation('4')
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#8 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-11 11:47:32 --> Undefined variable: dbname
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 23, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Libraries/TemplateLib.php(34): App\Models\MasterModel->get('baliwagc_system...', 'users', 'user_id, firstn...', Array, Array, false, false)
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Dashboard.php(14): App\Libraries\TemplateLib::userInformation('4')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 11:47:40 --> Uninitialized string offset: 1
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized s...', '/Applications/M...', 33, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Libraries/TemplateLib.php(34): App\Models\MasterModel->get('baliwagc_system...', 'users', 'user_id, firstn...', Array, Array, false, false)
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Dashboard.php(14): App\Libraries\TemplateLib::userInformation('4')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 11:48:28 --> Uninitialized string offset: 1
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized s...', '/Applications/M...', 33, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Libraries/TemplateLib.php(34): App\Models\MasterModel->get('baliwagc_system...', 'users', 'user_id, firstn...', Array, Array, false, false)
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Dashboard.php(14): App\Libraries\TemplateLib::userInformation('4')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 11:48:29 --> Uninitialized string offset: 1
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized s...', '/Applications/M...', 33, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Libraries/TemplateLib.php(34): App\Models\MasterModel->get('baliwagc_system...', 'users', 'user_id, firstn...', Array, Array, false, false)
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Dashboard.php(14): App\Libraries\TemplateLib::userInformation('4')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 11:48:37 --> Uninitialized string offset: 1
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized s...', '/Applications/M...', 33, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Libraries/TemplateLib.php(34): App\Models\MasterModel->get('baliwagc_system...', 'users', 'user_id, firstn...', Array, Array, false, false)
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Dashboard.php(14): App\Libraries\TemplateLib::userInformation('4')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 11:48:38 --> Uninitialized string offset: 1
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized s...', '/Applications/M...', 33, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Libraries/TemplateLib.php(34): App\Models\MasterModel->get('baliwagc_system...', 'users', 'user_id, firstn...', Array, Array, false, false)
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Dashboard.php(14): App\Libraries\TemplateLib::userInformation('4')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 11:49:00 --> Uninitialized string offset: 1
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized s...', '/Applications/M...', 33, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Libraries/TemplateLib.php(34): App\Models\MasterModel->get('baliwagc_system...', 'users', 'user_id, firstn...', Array, Array, false, false)
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Dashboard.php(14): App\Libraries\TemplateLib::userInformation('4')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 11:49:01 --> Uninitialized string offset: 1
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized s...', '/Applications/M...', 33, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Libraries/TemplateLib.php(34): App\Models\MasterModel->get('baliwagc_system...', 'users', 'user_id, firstn...', Array, Array, false, false)
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Dashboard.php(14): App\Libraries\TemplateLib::userInformation('4')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 11:49:02 --> Uninitialized string offset: 1
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized s...', '/Applications/M...', 33, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Libraries/TemplateLib.php(34): App\Models\MasterModel->get('baliwagc_system...', 'users', 'user_id, firstn...', Array, Array, false, false)
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Dashboard.php(14): App\Libraries\TemplateLib::userInformation('4')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 11:49:16 --> Uninitialized string offset: 1
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized s...', '/Applications/M...', 33, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Libraries/TemplateLib.php(34): App\Models\MasterModel->get('baliwagc_system...', 'users', 'user_id, firstn...', Array, Array, false, false)
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Dashboard.php(14): App\Libraries\TemplateLib::userInformation('4')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 11:49:16 --> Uninitialized string offset: 1
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized s...', '/Applications/M...', 33, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Libraries/TemplateLib.php(34): App\Models\MasterModel->get('baliwagc_system...', 'users', 'user_id, firstn...', Array, Array, false, false)
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Dashboard.php(14): App\Libraries\TemplateLib::userInformation('4')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 11:50:18 --> You must set the database table to be used with your query.
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(25): CodeIgniter\Database\BaseConnection->table(false)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Libraries/TemplateLib.php(55): App\Models\MasterModel->get(false, 'departments', 'dept_id, dept_a...', Array, false, 'dept_id ASC', false)
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Dashboard.php(15): App\Libraries\TemplateLib::departments()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Hris\Dashboard->__construct()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 11:51:33 --> You must set the database table to be used with your query.
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(25): CodeIgniter\Database\BaseConnection->table(false)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Libraries/TemplateLib.php(55): App\Models\MasterModel->get(false, 'departments', 'dept_id, dept_a...', Array, false, 'dept_id ASC', false)
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Dashboard.php(15): App\Libraries\TemplateLib::departments()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Hris\Dashboard->__construct()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 11:51:34 --> You must set the database table to be used with your query.
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(25): CodeIgniter\Database\BaseConnection->table(false)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Libraries/TemplateLib.php(55): App\Models\MasterModel->get(false, 'departments', 'dept_id, dept_a...', Array, false, 'dept_id ASC', false)
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Dashboard.php(15): App\Libraries\TemplateLib::departments()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Hris\Dashboard->__construct()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 11:53:16 --> You must set the database table to be used with your query.
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(25): CodeIgniter\Database\BaseConnection->table(false)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Libraries/TemplateLib.php(55): App\Models\MasterModel->get(false, 'departments', 'dept_id, dept_a...', Array, false, 'dept_id ASC', false)
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Dashboard.php(16): App\Libraries\TemplateLib::departments()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Hris\Dashboard->__construct()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 11:53:17 --> You must set the database table to be used with your query.
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(25): CodeIgniter\Database\BaseConnection->table(false)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Libraries/TemplateLib.php(55): App\Models\MasterModel->get(false, 'departments', 'dept_id, dept_a...', Array, false, 'dept_id ASC', false)
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Dashboard.php(16): App\Libraries\TemplateLib::departments()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Hris\Dashboard->__construct()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 11:53:59 --> You must set the database table to be used with your query.
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(25): CodeIgniter\Database\BaseConnection->table(false)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Libraries/TemplateLib.php(55): App\Models\MasterModel->get(false, 'departments', 'dept_id, dept_a...', Array, false, 'dept_id ASC', false)
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Dashboard.php(16): App\Libraries\TemplateLib::departments()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Hris\Dashboard->__construct()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 11:54:00 --> You must set the database table to be used with your query.
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(25): CodeIgniter\Database\BaseConnection->table(false)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Libraries/TemplateLib.php(55): App\Models\MasterModel->get(false, 'departments', 'dept_id, dept_a...', Array, false, 'dept_id ASC', false)
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Dashboard.php(16): App\Libraries\TemplateLib::departments()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Hris\Dashboard->__construct()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 11:54:57 --> Undefined variable: masterModel
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Dashboard.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 25, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Dashboard->index()
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Dashboard))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-05-11 11:55:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' system_alias, system_name, system_access' at line 4
+CRITICAL - 2023-05-11 11:55:19 --> Undefined property: App\Controllers\Hris\Dashboard::$userInformation
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Dashboard.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 28, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Dashboard->index()
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Dashboard))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-11 11:56:27 --> You must set the database table to be used with your query.
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(25): CodeIgniter\Database\BaseConnection->table(false)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Libraries/TemplateLib.php(55): App\Models\MasterModel->get(false, 'departments', 'dept_id, dept_a...', Array, false, 'dept_id ASC', false)
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Dashboard.php(16): App\Libraries\TemplateLib::departments()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Hris\Dashboard->__construct()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-05-11 11:56:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' system_alias, system_name, system_access' at line 4
+ERROR - 2023-05-11 11:56:34 --> Table 'baliwagc_systems_db.attendances' doesn't exist
+CRITICAL - 2023-05-11 11:56:34 --> Trying to get property 'status' of non-object
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/hris/dashboards/admin_assistant.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 55, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('hris/dashboards...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Dashboard.php(79): view('hris/dashboards...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Dashboard->index()
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Dashboard))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-11 11:57:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' system_alias, system_name, system_access' at line 4
+ERROR - 2023-05-11 11:57:06 --> Table 'baliwagc_systems_db.attendances' doesn't exist
+CRITICAL - 2023-05-11 11:57:06 --> Trying to get property 'status' of non-object
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/hris/dashboards/admin_assistant.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 55, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('hris/dashboards...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Dashboard.php(79): view('hris/dashboards...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Dashboard->index()
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Dashboard))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-11 11:57:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' system_alias, system_name, system_access' at line 4
+ERROR - 2023-05-11 11:57:40 --> Table 'baliwagc_systems_db.attendances' doesn't exist
+CRITICAL - 2023-05-11 11:57:40 --> Trying to get property 'status' of non-object
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/hris/dashboards/admin_assistant.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 55, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('hris/dashboards...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Dashboard.php(79): view('hris/dashboards...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Dashboard->index()
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Dashboard))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-11 11:58:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' system_alias, system_name, system_access' at line 4
+ERROR - 2023-05-11 11:58:05 --> Table 'baliwagc_systems_db.attendances' doesn't exist
+CRITICAL - 2023-05-11 11:58:05 --> Trying to get property 'status' of non-object
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/hris/dashboards/admin_assistant.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 55, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('hris/dashboards...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Dashboard.php(79): view('hris/dashboards...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Dashboard->index()
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Dashboard))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-11 11:58:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' system_alias, system_name, system_access' at line 4
+ERROR - 2023-05-11 11:58:19 --> Table 'baliwagc_systems_db.attendances' doesn't exist
+CRITICAL - 2023-05-11 11:58:19 --> Trying to get property 'status' of non-object
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/hris/dashboards/admin_assistant.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 55, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('hris/dashboards...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Dashboard.php(79): view('hris/dashboards...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Dashboard->index()
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Dashboard))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-11 11:58:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' system_alias, system_name, system_access' at line 4
+ERROR - 2023-05-11 11:58:20 --> Table 'baliwagc_systems_db.attendances' doesn't exist
+CRITICAL - 2023-05-11 11:58:20 --> Trying to get property 'status' of non-object
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/hris/dashboards/admin_assistant.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 55, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('hris/dashboards...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Dashboard.php(79): view('hris/dashboards...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Dashboard->index()
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Dashboard))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-11 11:58:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' system_alias, system_name, system_access' at line 4
+ERROR - 2023-05-11 11:58:33 --> Table 'baliwagc_systems_db.attendances' doesn't exist
+ERROR - 2023-05-11 12:45:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' system_alias, system_name, system_access' at line 4
+ERROR - 2023-05-11 12:45:56 --> Table 'baliwagc_systems_db.attendances' doesn't exist
+CRITICAL - 2023-05-11 12:46:52 --> Undefined variable: DBGroup
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/HrisModel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 15, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Dashboard.php(23): App\Models\HrisModel->__construct()
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Dashboard->index()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Dashboard))
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-11 12:50:26 --> Undefined variable: DBGroup
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/HrisModel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 15, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Dashboard.php(23): App\Models\HrisModel->__construct()
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Dashboard->index()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Dashboard))
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-11 12:50:27 --> Undefined variable: DBGroup
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/HrisModel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 15, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Dashboard.php(23): App\Models\HrisModel->__construct()
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Dashboard->index()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Dashboard))
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-05-11 12:50:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' system_alias, system_name, system_access' at line 4
+ERROR - 2023-05-11 12:50:47 --> Table 'baliwagc_systems_db.attendances' doesn't exist
+ERROR - 2023-05-11 12:50:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' system_alias, system_name, system_access' at line 4
+ERROR - 2023-05-11 12:50:54 --> Table 'baliwagc_systems_db.attendances' doesn't exist
+ERROR - 2023-05-11 12:50:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' system_alias, system_name, system_access' at line 4
+ERROR - 2023-05-11 12:50:54 --> Table 'baliwagc_systems_db.attendances' doesn't exist
+ERROR - 2023-05-11 12:50:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' system_alias, system_name, system_access' at line 4
+ERROR - 2023-05-11 12:50:55 --> Table 'baliwagc_systems_db.attendances' doesn't exist
+ERROR - 2023-05-11 12:50:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' system_alias, system_name, system_access' at line 4
+ERROR - 2023-05-11 12:50:56 --> Table 'baliwagc_systems_db.attendances' doesn't exist
+CRITICAL - 2023-05-11 12:52:42 --> Undefined property: App\Models\HrisModel::$load
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/HrisModel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 15, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Dashboard.php(23): App\Models\HrisModel->__construct()
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Dashboard->index()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Dashboard))
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-05-11 12:54:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' system_alias, system_name, system_access' at line 4
+ERROR - 2023-05-11 12:54:56 --> Table 'baliwagc_systems_db.attendances' doesn't exist
+ERROR - 2023-05-11 12:55:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' system_alias, system_name, system_access' at line 4
+ERROR - 2023-05-11 12:55:24 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2023-05-11 12:55:24 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `attenda...', Array, false)
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Models/HrisModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Dashboard.php(69): App\Models\HrisModel->get('attendances', 'attendances.emp...', Array, Array)
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Dashboard->index()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Dashboard))
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-05-11 12:55:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' system_alias, system_name, system_access' at line 4
+ERROR - 2023-05-11 12:55:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' system_alias, system_name, system_access' at line 4
+ERROR - 2023-05-11 12:55:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' system_alias, system_name, system_access' at line 4
+CRITICAL - 2023-05-11 12:57:36 --> You must set the database table to be used with your query.
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(25): CodeIgniter\Database\BaseConnection->table(false)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Libraries/TemplateLib.php(55): App\Models\MasterModel->get(false, 'departments', 'dept_id, dept_a...', Array, false, 'dept_id ASC', false)
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(17): App\Libraries\TemplateLib::departments()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Hris\Employee->__construct()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 12:58:08 --> You must set the database table to be used with your query.
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(25): CodeIgniter\Database\BaseConnection->table(false)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Libraries/TemplateLib.php(55): App\Models\MasterModel->get(false, 'departments', 'dept_id, dept_a...', Array, false, 'dept_id ASC', false)
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(17): App\Libraries\TemplateLib::departments()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Hris\Employee->__construct()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 12:58:08 --> You must set the database table to be used with your query.
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(25): CodeIgniter\Database\BaseConnection->table(false)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Libraries/TemplateLib.php(55): App\Models\MasterModel->get(false, 'departments', 'dept_id, dept_a...', Array, false, 'dept_id ASC', false)
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(17): App\Libraries\TemplateLib::departments()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Hris\Employee->__construct()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 12:58:18 --> Unknown database 'employees'
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(252): mysqli->select_db('employees')
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Models/HrisModel.php(58): CodeIgniter\Database\MySQLi\Connection->setDatabase('employees')
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(37): App\Models\HrisModel->getDataTables('employees', 'employee_id, qr...', Array, false, 'employee_id ASC', false)
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->getEmployees()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 12:58:27 --> Unknown database 'employees'
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(252): mysqli->select_db('employees')
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Models/HrisModel.php(58): CodeIgniter\Database\MySQLi\Connection->setDatabase('employees')
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(37): App\Models\HrisModel->getDataTables('employees', 'employee_id, qr...', Array, false, 'employee_id ASC', false)
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->getEmployees()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 12:58:58 --> Unknown database 'employees'
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(252): mysqli->select_db('employees')
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Models/HrisModel.php(58): CodeIgniter\Database\MySQLi\Connection->setDatabase('employees')
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(37): App\Models\HrisModel->getDataTables('employees', 'employee_id, qr...', Array, false, 'employee_id ASC', false)
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->getEmployees()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 12:59:51 --> Uninitialized string offset: 1
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized s...', '/Applications/M...', 33, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(199): App\Models\MasterModel->get('baliwagc_hris_d...', 'employees', 'employees.emplo...', Array, Array)
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->employee_profile('1')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-11 13:00:44 --> Uninitialized string offset: 1
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized s...', '/Applications/M...', 33, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(225): App\Models\MasterModel->get('baliwagc_hris_d...', 'employees', 'firstname, midd...', Array)
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->save_image()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-11 13:03:16 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, array given, called in /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php on line 36
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(36): CodeIgniter\Database\BaseBuilder->orderBy(Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(99): App\Models\MasterModel->get('baliwagc_hris_d...', 'employees', 'employees.emplo...', Array, Array)
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->addAttendance()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-11 13:10:07 --> Undefined variable: checkOutDetails
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 146, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->outAttendance()
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-05-11 13:16:05 --> Unknown column 'attendance_status' in 'field list'
+CRITICAL - 2023-05-11 13:16:05 --> Undefined offset: 0
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Applications/M...', 106, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->addAttendance()
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-05-11 13:17:35 --> Unknown column 'attendance_status' in 'field list'
+CRITICAL - 2023-05-11 13:18:29 --> Undefined property: stdClass::$attendance_status
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 108, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->addAttendance()
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-11 13:23:40 --> Undefined variable: checkOutDetails
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 148, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->outAttendance()
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-05-11 13:23:55 --> Unknown column 'attendance_status' in 'field list'
+CRITICAL - 2023-05-11 13:35:12 --> Undefined property: stdClass::$time_id
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/hris/dashboards/admin_assistant.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 62, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('hris/dashboards...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Dashboard.php(79): view('hris/dashboards...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Dashboard->index()
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Dashboard))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-11 13:35:17 --> Undefined property: stdClass::$time_in
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/hris/dashboards/admin_assistant.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 62, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('hris/dashboards...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Dashboard.php(79): view('hris/dashboards...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Dashboard->index()
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Dashboard))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-11 13:36:11 --> Unknown column 'attendances.time_id' in 'field list'
+CRITICAL - 2023-05-11 13:36:11 --> Trying to get property 'status' of non-object
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/hris/dashboards/admin_assistant.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 56, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('hris/dashboards...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Dashboard.php(79): view('hris/dashboards...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Dashboard->index()
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Dashboard))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-11 13:36:41 --> Unknown column 'attendances.time_id' in 'field list'
+CRITICAL - 2023-05-11 13:36:41 --> Trying to get property 'status' of non-object
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/hris/dashboards/admin_assistant.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 56, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('hris/dashboards...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Dashboard.php(79): view('hris/dashboards...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Dashboard->index()
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Dashboard))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-11 13:37:08 --> Unknown column 'attendances.time_id' in 'field list'
+CRITICAL - 2023-05-11 13:37:08 --> Trying to get property 'status' of non-object
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/hris/dashboards/admin_assistant.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 56, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('hris/dashboards...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Dashboard.php(79): view('hris/dashboards...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Dashboard->index()
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Dashboard))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-11 13:37:09 --> Unknown column 'attendances.time_id' in 'field list'
+CRITICAL - 2023-05-11 13:37:09 --> Trying to get property 'status' of non-object
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/hris/dashboards/admin_assistant.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 56, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('hris/dashboards...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Dashboard.php(79): view('hris/dashboards...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Dashboard->index()
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Dashboard))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-11 13:37:34 --> Unknown column 'attendances.time_id' in 'field list'
+CRITICAL - 2023-05-11 14:04:40 --> Unknown database 'departments'
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(252): mysqli->select_db('departments')
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(57): CodeIgniter\Database\MySQLi\Connection->setDatabase('departments')
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Departments.php(74): App\Models\MasterModel->getDataTables('departments', 'dept_id, dept_a...', Array, false, 'dept_id ASC', false)
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Departments->getDepartmentDataTable()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departments))
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 14:05:17 --> Unknown database 'departments'
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(252): mysqli->select_db('departments')
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(57): CodeIgniter\Database\MySQLi\Connection->setDatabase('departments')
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Departments.php(74): App\Models\MasterModel->getDataTables('departments', 'dept_id, dept_a...', Array, false, 'dept_id ASC', false)
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Departments->getDepartmentDataTable()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departments))
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 14:05:36 --> Unknown database 'departments'
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(252): mysqli->select_db('departments')
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(57): CodeIgniter\Database\MySQLi\Connection->setDatabase('departments')
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Departments.php(74): App\Models\MasterModel->getDataTables('departments', 'dept_id, dept_a...', Array, false, 'dept_id ASC', false)
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Departments->getDepartmentDataTable()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departments))
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 14:06:38 --> Unknown database 'departments'
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(252): mysqli->select_db('departments')
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(55): CodeIgniter\Database\MySQLi\Connection->setDatabase('departments')
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Departments.php(74): App\Models\MasterModel->getDataTables('departments', 'dept_id, dept_a...', Array, false, 'dept_id ASC', false)
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Departments->getDepartmentDataTable()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departments))
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 14:06:58 --> You must set the database table to be used with your query.
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(23): CodeIgniter\Database\BaseConnection->table(false)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Libraries/TemplateLib.php(55): App\Models\MasterModel->get(false, 'departments', 'dept_id, dept_a...', Array, false, 'dept_id ASC', false)
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Users.php(18): App\Libraries\TemplateLib::departments()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Users->__construct()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 14:07:53 --> You must set the database table to be used with your query.
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(23): CodeIgniter\Database\BaseConnection->table(false)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Libraries/TemplateLib.php(55): App\Models\MasterModel->get(false, 'departments', 'dept_id, dept_a...', Array, false, 'dept_id ASC', false)
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Users.php(18): App\Libraries\TemplateLib::departments()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Users->__construct()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 14:07:54 --> You must set the database table to be used with your query.
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/MasterModel.php(23): CodeIgniter\Database\BaseConnection->table(false)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Libraries/TemplateLib.php(55): App\Models\MasterModel->get(false, 'departments', 'dept_id, dept_a...', Array, false, 'dept_id ASC', false)
+#2 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Users.php(18): App\Libraries\TemplateLib::departments()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Users->__construct()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-11 14:08:05 --> Undefined property: App\Controllers\Users::$departments
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Users.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 31, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Users->index()
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-11 14:08:28 --> Undefined index: status
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Users.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 31, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Users->index()
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-11 14:08:45 --> Undefined property: App\Controllers\Users::$roles
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Users.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 32, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Users->index()
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-11 14:08:57 --> Undefined index: status
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Users.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 32, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Users->index()
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-11 14:09:10 --> Undefined variable: systems
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/users/users.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 151, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('users/users', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Users.php(36): view('users/users', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Users->index()
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-11 14:09:17 --> Undefined index: status
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Users.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 33, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Users->index()
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-11 14:31:12 --> Undefined property: stdClass::$user_id
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Users.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 76, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(91): App\Controllers\Users->App\Controllers\{closure}(Object(stdClass))
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#3 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Users.php(90): Hermawan\DataTables\DataTable->toJson(true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Users->getUsers()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-11 14:31:26 --> Undefined property: stdClass::$user_id
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Users.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 76, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(91): App\Controllers\Users->App\Controllers\{closure}(Object(stdClass))
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#3 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Users.php(90): Hermawan\DataTables\DataTable->toJson(true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Users->getUsers()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-11 15:06:25 --> Undefined index: status
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/UtilController.php(210): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 210, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Users.php(167): App\Controllers\UtilController::getUserRole('2')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Users->updateUser()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-05-11 15:17:17 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2023-05-11 15:17:43 --> Undefined index: user_id
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Users.php(186): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 186, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Users->updateUser()
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}

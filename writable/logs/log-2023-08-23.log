@@ -1,0 +1,144 @@
+CRITICAL - 2023-08-23 13:53:42 --> Trying to access array offset on value of type bool
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/systems/systemInfo.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 45, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('systems/systemI...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Systems.php(69): view('systems/systemI...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Systems->system_info('assets', 'media', 'avatars', '300-2.jpg')
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Systems))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-23 13:53:42 --> Trying to access array offset on value of type bool
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/systems/systemInfo.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 45, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('systems/systemI...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Systems.php(69): view('systems/systemI...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Systems->system_info('assets', 'media', 'avatars', '300-7.jpg')
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Systems))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-23 13:53:42 --> Trying to access array offset on value of type bool
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/systems/systemInfo.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 45, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('systems/systemI...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Systems.php(69): view('systems/systemI...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Systems->system_info('assets', 'media', 'avatars', '300-11.jpg')
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Systems))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-23 13:53:42 --> Trying to access array offset on value of type bool
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/systems/systemInfo.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 45, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('systems/systemI...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Systems.php(69): view('systems/systemI...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Systems->system_info('assets', 'media', 'avatars', '300-20.jpg')
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Systems))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-23 13:53:42 --> Trying to access array offset on value of type bool
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/systems/systemInfo.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 45, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('systems/systemI...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Systems.php(69): view('systems/systemI...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Systems->system_info('assets', 'media', 'avatars', '300-12.jpg')
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Systems))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-23 14:46:57 --> Undefined index: status
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 193, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->getDocs('RGC-281942-2009...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-23 15:10:10 --> Undefined variable: conditions
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 128, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->getTransactions('RHU', 'incoming')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-23 15:10:10 --> Undefined variable: conditions
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 128, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->getTransactions('RHU')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-23 15:19:29 --> array_push() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', '/Applications/M...', 129, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(129): array_push(NULL, Array)
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->getTransactions('RHU', 'true')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-08-23 15:19:29 --> array_push() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', '/Applications/M...', 129, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(129): array_push(NULL, Array)
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->getTransactions('RHU')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-08-23 15:29:46 --> Undefined index: animal_bite_form.abf_id
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 138, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->getTransactions('RHU', 'true')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-23 15:33:44 --> Undefined index: no_quotes
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/hermawan/codeigniter4-datatables/src/DataTableColumnDefs.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 261, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/hermawan/codeigniter4-datatables/src/DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Object(CodeIgniter\Database\MySQLi\Builder))
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(35): Hermawan\DataTables\DataTableColumnDefs->__construct(Object(CodeIgniter\Database\MySQLi\Builder))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(46): Hermawan\DataTables\DataTable->__construct(Object(CodeIgniter\Database\MySQLi\Builder))
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(145): Hermawan\DataTables\DataTable::of(Object(CodeIgniter\Database\MySQLi\Builder))
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->getTransactions('RHU', 'true')
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-23 15:33:44 --> Undefined index: no_quotes
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/hermawan/codeigniter4-datatables/src/DataTableColumnDefs.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 261, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/hermawan/codeigniter4-datatables/src/DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Object(CodeIgniter\Database\MySQLi\Builder))
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(35): Hermawan\DataTables\DataTableColumnDefs->__construct(Object(CodeIgniter\Database\MySQLi\Builder))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(46): Hermawan\DataTables\DataTable->__construct(Object(CodeIgniter\Database\MySQLi\Builder))
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(145): Hermawan\DataTables\DataTable::of(Object(CodeIgniter\Database\MySQLi\Builder))
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->getTransactions('RHU')
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-23 15:34:49 --> Array to string conversion
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Applications/M...', 145, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->getTransactions('RHU', 'true')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-23 15:34:49 --> Array to string conversion
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Applications/M...', 145, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->getTransactions('RHU')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-23 16:01:25 --> Undefined index: status
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(202): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 202, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->getDocs('WNB-112629-2007...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-08-23 23:53:55 --> Unknown column 'members.last_name' in 'field list'
+ERROR - 2023-08-23 23:57:11 --> Unknown column 'households.barangay' in 'field list'

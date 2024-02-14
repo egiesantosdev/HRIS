@@ -1,0 +1,43 @@
+CRITICAL - 2023-09-12 07:53:05 --> Cannot declare class App\Controllers\Bhims\Dashboard, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-12 08:56:30 --> Too few arguments to function App\Controllers\Senior\Dashboard::access(), 0 passed in C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Senior\Dashboard->access()
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Senior\Dashboard))
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-09-12 08:56:52 --> Too few arguments to function App\Controllers\Senior\Dashboard::access(), 0 passed in C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Senior\Dashboard->access()
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Senior\Dashboard))
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-09-12 08:57:20 --> Too few arguments to function App\Controllers\Senior\Dashboard::access(), 0 passed in C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Senior\Dashboard->access()
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Senior\Dashboard))
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-09-12 09:32:45 --> Creation of dynamic property App\Models\AicsModel::$db is deprecated
+#0 C:\xampp\htdocs\blink\app\Models\AicsModel.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\blink\app\Controllers\Aics\Dashboard.php(20): App\Models\AicsModel->__construct()
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Aics\Dashboard->access('5')
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Dashboard))
+#4 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-09-12 11:04:46 --> syntax error, unexpected token "{"
+#0 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/senior/senior/...')
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/senior/senior/...')
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-12 11:19:57 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/senior/senior/...')
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/senior/senior/...')
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}

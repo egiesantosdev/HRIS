@@ -1,0 +1,60 @@
+CRITICAL - 2023-12-13 15:39:25 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getFile
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Configurations.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 21, Array)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Configurations->uploadLogo()
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Configurations))
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-13 15:39:37 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Configurations.php on line 21 and exactly 1 expected
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Configurations.php(21): CodeIgniter\HTTP\IncomingRequest->getFile()
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Configurations->uploadLogo()
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Configurations))
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-13 15:41:30 --> Call to a member function hasMoved() on array
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Configurations->uploadLogo()
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Configurations))
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-12-13 15:53:18 --> Class 'App\Controllers\Rbi\File' not found
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Configurations->uploadLogo()
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Configurations))
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-12-13 15:54:19 --> Class 'File' not found
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Configurations->uploadLogo()
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Configurations))
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-12-13 16:14:04 --> The uploaded file has already been moved.
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(133): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+#1 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Configurations.php(28): CodeIgniter\HTTP\Files\UploadedFile->move('./public/rbi/ba...')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Configurations->uploadLogo()
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Configurations))
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-12-13 16:26:56 --> Undefined variable: imageName
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Configurations.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 44, Array)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Configurations->uploadLogo()
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Configurations))
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-13 16:39:44 --> Undefined variable: imageName
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Configurations.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 46, Array)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Configurations->uploadLogo()
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Configurations))
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-13 16:42:52 --> Class 'App\Controllers\Rbi\File' not found
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Configurations->uploadLogo()
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Configurations))
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}

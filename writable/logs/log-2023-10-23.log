@@ -1,0 +1,20 @@
+CRITICAL - 2023-10-23 19:11:10 --> syntax error, unexpected variable "$view_data"
+#0 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/bhims/househol...')
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/bhims/househol...')
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-23 19:11:44 --> Call to undefined function App\Controllers\Bhims\customQuery()
+#0 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Bhims\Household->reports()
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bhims\Household))
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-10-23 19:24:03 --> array_merge(): Argument #1 must be of type array, stdClass given
+#0 C:\xampp\htdocs\blink\app\Controllers\Bhims\Household.php(815): array_merge(Object(stdClass), Object(stdClass))
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Bhims\Household->reports()
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bhims\Household))
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}

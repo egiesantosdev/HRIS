@@ -1,0 +1,7 @@
+CRITICAL - 2023-11-06 09:32:55 --> Trying to access array offset on value of type int
+#0 C:\xampp\htdocs\blink\app\Controllers\Senior\Senior.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 463)
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Senior\Senior->isSeniorInDatabase('120692')
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Senior\Senior))
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}

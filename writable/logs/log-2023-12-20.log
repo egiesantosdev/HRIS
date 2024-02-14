@@ -1,0 +1,270 @@
+CRITICAL - 2023-12-20 15:15:46 --> Cannot declare class App\Controllers\Rbi\Certificates, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-12-20 15:15:53 --> Invalid file: rbi/indigency/indigencyList.php
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rbi/indigency/i...')
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('rbi/indigency/i...', Array, true)
+#2 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Indigency.php(16): view('rbi/indigency/i...', Array)
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Indigency->index()
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Indigency))
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-20 15:38:20 --> syntax error, unexpected token ";"
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('rbi/indigency/c...', Array, true)
+#2 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Indigency.php(25): view('rbi/indigency/c...', Array)
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Indigency->createNewIndigency()
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Indigency))
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-20 16:00:49 --> Undefined variable $certificates
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Indigency.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 23)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Indigency->createNewIndigency()
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Indigency))
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-20 16:00:57 --> Undefined variable $certificates
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Views/rbi/indigency/createNewIndigency.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 69)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('rbi/indigency/c...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Indigency.php(25): view('rbi/indigency/c...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Indigency->createNewIndigency()
+#6 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Indigency))
+#7 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-20 16:01:17 --> Undefined variable $certificate
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Views/rbi/indigency/createNewIndigency.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 70)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('rbi/indigency/c...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Indigency.php(25): view('rbi/indigency/c...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Indigency->createNewIndigency()
+#6 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Indigency))
+#7 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-20 16:31:14 --> Unknown column 'indigency_type' in 'field list'
+ERROR - 2023-12-20 16:31:41 --> Unknown column 'indigency_type' in 'field list'
+CRITICAL - 2023-12-20 16:33:15 --> Undefined variable $certificateId
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Indigency.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 107)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Indigency->indigencyPrint('1')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Indigency))
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-20 16:43:04 --> Undefined variable $certificateId
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Indigency.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 107)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Indigency->indigencyPrint('1')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Indigency))
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-20 16:43:13 --> Undefined variable $cerindigencyIdtificateId
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Indigency.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 107)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Indigency->indigencyPrint('1')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Indigency))
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-20 16:43:20 --> Undefined variable $cerindigencyIdtificateId
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Indigency.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 107)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Indigency->indigencyPrint('1')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Indigency))
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-20 16:43:27 --> Undefined variable $certificateInfo
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Indigency.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 115)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Indigency->indigencyPrint('1')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Indigency))
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-20 16:43:36 --> Undefined variable $certificateInfo
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Indigency.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 115)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Indigency->indigencyPrint('1')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Indigency))
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-20 16:44:05 --> Undefined variable $certificateInfo
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Views/rbi/certificates/secondCertificatePrint.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 30)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('rbi/certificate...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Indigency.php(130): view('rbi/certificate...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Indigency->indigencyPrint('1')
+#6 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Indigency))
+#7 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-20 16:44:34 --> Undefined variable $certificateInfo
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Views/rbi/certificates/secondCertificatePrint.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 30)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('rbi/certificate...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Indigency.php(130): view('rbi/certificate...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Indigency->indigencyPrint('1')
+#6 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Indigency))
+#7 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-20 16:44:39 --> Undefined variable $certificateInfo
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Views/rbi/certificates/secondCertificatePrint.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 30)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('rbi/certificate...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Indigency.php(130): view('rbi/certificate...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Indigency->indigencyPrint('1')
+#6 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Indigency))
+#7 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-20 16:54:34 --> Undefined property: stdClass::$rc_id
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Indigency.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 93)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(91): App\Controllers\Rbi\Indigency->App\Controllers\Rbi\{closure}(Object(stdClass))
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#3 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Indigency.php(101): Hermawan\DataTables\DataTable->toJson(true)
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Indigency->getIndigencyRecords()
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Indigency))
+#6 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-12-20 16:54:58 --> Undefined property: stdClass::$certificate_id
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Indigency.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 93)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(91): App\Controllers\Rbi\Indigency->App\Controllers\Rbi\{closure}(Object(stdClass))
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#3 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Indigency.php(101): Hermawan\DataTables\DataTable->toJson(true)
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Indigency->getIndigencyRecords()
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Indigency))
+#6 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-12-20 17:08:19 --> Unknown column 'members.deleted_at' in 'where clause'
+CRITICAL - 2023-12-20 17:08:19 --> Unknown column 'members.deleted_at' in 'where clause'
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(53): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(174): Hermawan\DataTables\DataTableQuery->countAll()
+#6 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Citizens.php(45): Hermawan\DataTables\DataTable->toJson(true)
+#7 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Citizens->getCitizens()
+#8 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Citizens))
+#9 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-12-20 17:08:29 --> Unknown column 'deleted_at' in 'where clause'
+CRITICAL - 2023-12-20 17:08:29 --> Unknown column 'deleted_at' in 'where clause'
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(53): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(174): Hermawan\DataTables\DataTableQuery->countAll()
+#6 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Citizens.php(45): Hermawan\DataTables\DataTable->toJson(true)
+#7 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Citizens->getCitizens()
+#8 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Citizens))
+#9 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-12-20 18:27:40 --> Table 'baliwagc_citizens_db.blotter_list' doesn't exist
+CRITICAL - 2023-12-20 18:27:40 --> Table 'baliwagc_citizens_db.blotter_list' doesn't exist
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(53): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(174): Hermawan\DataTables\DataTableQuery->countAll()
+#6 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Blotter.php(83): Hermawan\DataTables\DataTable->toJson(true)
+#7 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Blotter->getBlotterList()
+#8 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Blotter))
+#9 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-12-20 18:27:46 --> Table 'baliwagc_citizens_db.blotter_list' doesn't exist
+CRITICAL - 2023-12-20 18:27:46 --> Table 'baliwagc_citizens_db.blotter_list' doesn't exist
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(53): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(174): Hermawan\DataTables\DataTableQuery->countAll()
+#6 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Blotter.php(83): Hermawan\DataTables\DataTable->toJson(true)
+#7 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Blotter->getBlotterList()
+#8 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Blotter))
+#9 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-12-20 18:28:06 --> Unknown column 'first_name' in 'order clause'
+CRITICAL - 2023-12-20 18:28:06 --> Unknown column 'first_name' in 'order clause'
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `bl_id`,...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bl_id`,...')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bl_id`,...')
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `bl_id`,...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Blotter.php(83): Hermawan\DataTables\DataTable->toJson(true)
+#8 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Blotter->getBlotterList()
+#9 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Blotter))
+#10 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-12-20 18:30:34 --> Unknown column 'offender' in 'order clause'
+CRITICAL - 2023-12-20 18:30:34 --> Unknown column 'offender' in 'order clause'
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `bl_id`,...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bl_id`,...')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bl_id`,...')
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `bl_id`,...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Blotter.php(83): Hermawan\DataTables\DataTable->toJson(true)
+#8 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Blotter->getBlotterList()
+#9 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Blotter))
+#10 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-20 18:32:44 --> Undefined property: stdClass::$member_id
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Blotter.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 75)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(91): App\Controllers\Rbi\Blotter->App\Controllers\Rbi\{closure}(Object(stdClass))
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#3 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Blotter.php(83): Hermawan\DataTables\DataTable->toJson(true)
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Blotter->getBlotterList()
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Blotter))
+#6 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-12-20 18:33:46 --> Unclosed '{' on line 12
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('/rbi/blotter/ad...')
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/rbi/blotter/ad...')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-20 18:34:20 --> Undefined property: stdClass::$bl_id
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Blotter.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 105)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(91): App\Controllers\Rbi\Blotter->App\Controllers\Rbi\{closure}(Object(stdClass))
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#3 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Blotter.php(113): Hermawan\DataTables\DataTable->toJson(true)
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Blotter->getCitizens()
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Blotter))
+#6 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-12-20 18:34:43 --> Undefined property: stdClass::$first_name
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Blotter.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 75)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(91): App\Controllers\Rbi\Blotter->App\Controllers\Rbi\{closure}(Object(stdClass))
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#3 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Blotter.php(83): Hermawan\DataTables\DataTable->toJson(true)
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Blotter->getBlotterList()
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Blotter))
+#6 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}

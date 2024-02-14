@@ -1,0 +1,495 @@
+CRITICAL - 2023-08-31 01:47:43 --> Undefined offset: 2
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Models/CitizensModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Applications/M...', 29, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(105): App\Models\CitizensModel->get('members', 'members.member_...', Array, Array)
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->search_citizen('qrscanner')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-08-31 11:37:41 --> Trying to access array offset on value of type bool
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(530): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 530, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->printCaseStudy('5')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-31 13:36:12 --> Undefined index: firstname
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/aics/prints/caseStudy.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 97, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('aics/prints/cas...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(547): view('aics/prints/cas...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->printCaseStudy('4')
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-31 13:36:17 --> Undefined index: first_name
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/aics/prints/caseStudy.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 97, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('aics/prints/cas...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(547): view('aics/prints/cas...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->printCaseStudy('4')
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-31 13:39:07 --> Undefined property: stdClass::$contact_no
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/aics/prints/caseStudy.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 98, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('aics/prints/cas...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(547): view('aics/prints/cas...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->printCaseStudy('4')
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-31 13:39:13 --> Undefined property: stdClass::$contact_number
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/aics/prints/caseStudy.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 98, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('aics/prints/cas...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(547): view('aics/prints/cas...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->printCaseStudy('4')
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-08-31 13:40:20 --> Unknown column 'members.birth_date' in 'field list'
+CRITICAL - 2023-08-31 13:40:20 --> Trying to get property 'family_id' of non-object
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(538): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 538, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->printCaseStudy('4')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-31 13:40:40 --> Undefined property: stdClass::$birth_date
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/aics/prints/caseStudy.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 102, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('aics/prints/cas...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(547): view('aics/prints/cas...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->printCaseStudy('4')
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-08-31 13:41:04 --> Unknown column 'members.birth_date' in 'field list'
+CRITICAL - 2023-08-31 13:41:04 --> Trying to get property 'family_id' of non-object
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(538): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 538, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->printCaseStudy('4')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-08-31 13:41:22 --> Unknown column 'members.birth_date' in 'field list'
+CRITICAL - 2023-08-31 13:41:22 --> Undefined variable: familyMembers
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(543): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 543, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->printCaseStudy('4')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-08-31 13:41:27 --> Unknown column 'members.birth_date' in 'field list'
+CRITICAL - 2023-08-31 13:41:27 --> Trying to get property 'firstname' of non-object
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/aics/prints/caseStudy.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 97, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('aics/prints/cas...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(547): view('aics/prints/cas...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->printCaseStudy('4')
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-08-31 13:41:41 --> Unknown column 'members.birth_date' in 'field list'
+CRITICAL - 2023-08-31 13:41:41 --> Trying to get property 'firstname' of non-object
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/aics/prints/caseStudy.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 97, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('aics/prints/cas...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(549): view('aics/prints/cas...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->printCaseStudy('4')
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-08-31 13:41:46 --> Unknown column 'members.birth_date' in 'field list'
+CRITICAL - 2023-08-31 13:42:04 --> Undefined property: stdClass::$birth_date
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/aics/prints/caseStudy.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 102, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('aics/prints/cas...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(548): view('aics/prints/cas...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->printCaseStudy('4')
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-31 13:52:21 --> explode() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', '/Applications/M...', 149, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Views/aics/prints/caseStudy.php(149): explode(Array)
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('aics/prints/cas...', Array, true)
+#5 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(548): view('aics/prints/cas...', Array)
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->printCaseStudy('4')
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#8 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 14:07:43 --> Undefined variable: aicsModel
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(579): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 579, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->getCaseStudy()
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-31 14:08:16 --> Undefined variable: conditions
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(580): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 580, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->getCaseStudy()
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-08-31 14:08:29 --> Table 'baliwagc_aics_db.members' doesn't exist
+CRITICAL - 2023-08-31 14:08:29 --> Table 'baliwagc_aics_db.members' doesn't exist
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(53): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(174): Hermawan\DataTables\DataTableQuery->countAll()
+#6 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(607): Hermawan\DataTables\DataTable->toJson(true)
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->getCaseStudy()
+#8 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#9 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-08-31 14:11:31 --> Unknown column 'members.first_name' in 'field list'
+CRITICAL - 2023-08-31 14:11:31 --> Unknown column 'members.first_name' in 'field list'
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `case_st...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `case_st...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `case_st...')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `case_st...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(613): Hermawan\DataTables\DataTable->toJson(true)
+#8 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->getCaseStudy()
+#9 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#10 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-31 14:12:35 --> Undefined property: stdClass::$transaction_id
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(604): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 604, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(91): App\Controllers\Aics\Transactions->App\Controllers\Aics\{closure}(Object(stdClass))
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#3 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(612): Hermawan\DataTables\DataTable->toJson(true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->getCaseStudy()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-08-31 14:12:56 --> Undefined property: stdClass::$transaction_id
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(603): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 603, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(91): App\Controllers\Aics\Transactions->App\Controllers\Aics\{closure}(Object(stdClass))
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#3 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(611): Hermawan\DataTables\DataTable->toJson(true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->getCaseStudy()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-08-31 14:13:08 --> Undefined property: stdClass::$cs_id
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(603): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 603, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(91): App\Controllers\Aics\Transactions->App\Controllers\Aics\{closure}(Object(stdClass))
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#3 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Aics/Transactions.php(611): Hermawan\DataTables\DataTable->toJson(true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->getCaseStudy()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-08-31 14:42:11 --> Table 'baliwagctserv2_aics_db.case_study' doesn't exist
+CRITICAL - 2023-08-31 14:42:11 --> Table 'baliwagctserv2_aics_db.case_study' doesn't exist
+#0 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /home/baliwagctserv2/public_html/blink/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(53): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/baliwagctserv2/public_html/blink/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(174): Hermawan\DataTables\DataTableQuery->countAll()
+#6 /home/baliwagctserv2/public_html/blink/app/Controllers/Aics/Transactions.php(595): Hermawan\DataTables\DataTable->toJson(true)
+#7 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->getCaseStudy()
+#8 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#9 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/baliwagctserv2/public_html/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-08-31 14:42:30 --> Table 'baliwagctserv2_aics_db.case_study' doesn't exist
+CRITICAL - 2023-08-31 14:42:30 --> Table 'baliwagctserv2_aics_db.case_study' doesn't exist
+#0 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /home/baliwagctserv2/public_html/blink/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(53): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/baliwagctserv2/public_html/blink/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(174): Hermawan\DataTables\DataTableQuery->countAll()
+#6 /home/baliwagctserv2/public_html/blink/app/Controllers/Aics/Transactions.php(595): Hermawan\DataTables\DataTable->toJson(true)
+#7 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->getCaseStudy()
+#8 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#9 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/baliwagctserv2/public_html/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-08-31 14:51:30 --> file_get_contents(): data:// wrapper is disabled in the server configuration by allow_url_fopen=0
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/baliwagct...', 565, Array)
+#1 /home/baliwagctserv2/public_html/blink/app/Controllers/Aics/Transactions.php(565): file_get_contents('data:image/png;...')
+#2 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->saveProfileImage()
+#3 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#4 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/baliwagctserv2/public_html/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-08-31 14:51:38 --> file_get_contents(): data:// wrapper is disabled in the server configuration by allow_url_fopen=0
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/baliwagct...', 565, Array)
+#1 /home/baliwagctserv2/public_html/blink/app/Controllers/Aics/Transactions.php(565): file_get_contents('data:image/png;...')
+#2 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->saveProfileImage()
+#3 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#4 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/baliwagctserv2/public_html/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-08-31 14:52:03 --> file_get_contents(): data:// wrapper is disabled in the server configuration by allow_url_fopen=0
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/baliwagct...', 565, Array)
+#1 /home/baliwagctserv2/public_html/blink/app/Controllers/Aics/Transactions.php(565): file_get_contents('data:image/png;...')
+#2 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->saveProfileImage()
+#3 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#4 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/baliwagctserv2/public_html/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-08-31 14:52:05 --> file_get_contents(): data:// wrapper is disabled in the server configuration by allow_url_fopen=0
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/baliwagct...', 565, Array)
+#1 /home/baliwagctserv2/public_html/blink/app/Controllers/Aics/Transactions.php(565): file_get_contents('data:image/png;...')
+#2 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->saveProfileImage()
+#3 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#4 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/baliwagctserv2/public_html/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-08-31 14:52:11 --> file_get_contents(): data:// wrapper is disabled in the server configuration by allow_url_fopen=0
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/baliwagct...', 565, Array)
+#1 /home/baliwagctserv2/public_html/blink/app/Controllers/Aics/Transactions.php(565): file_get_contents('data:image/png;...')
+#2 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->saveProfileImage()
+#3 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#4 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/baliwagctserv2/public_html/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-08-31 14:52:17 --> file_get_contents(): data:// wrapper is disabled in the server configuration by allow_url_fopen=0
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/baliwagct...', 565, Array)
+#1 /home/baliwagctserv2/public_html/blink/app/Controllers/Aics/Transactions.php(565): file_get_contents('data:image/png;...')
+#2 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->saveProfileImage()
+#3 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#4 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/baliwagctserv2/public_html/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-08-31 14:54:47 --> file_get_contents(): data:// wrapper is disabled in the server configuration by allow_url_fopen=0
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/baliwagct...', 565, Array)
+#1 /home/baliwagctserv2/public_html/blink/app/Controllers/Aics/Transactions.php(565): file_get_contents('data:image/png;...')
+#2 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->saveProfileImage()
+#3 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#4 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/baliwagctserv2/public_html/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-08-31 14:56:56 --> file_get_contents(): data:// wrapper is disabled in the server configuration by allow_url_fopen=0
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/baliwagct...', 565, Array)
+#1 /home/baliwagctserv2/public_html/blink/app/Controllers/Aics/Transactions.php(565): file_get_contents('data:image/png;...')
+#2 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->saveProfileImage()
+#3 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#4 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/baliwagctserv2/public_html/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-08-31 15:30:40 --> Duplicate entry 'laboratory@baliwag.gov.ph' for key 'email'
+ERROR - 2023-08-31 15:31:33 --> Duplicate entry 'burial@baliwag.gov.ph' for key 'email'
+CRITICAL - 2023-08-31 15:43:00 --> Trying to access array offset on value of type bool
+#0 /home/baliwagctserv2/public_html/blink/app/Views/systems/systemInfo.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/baliwagct...', 45)
+#1 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/baliwagct...')
+#2 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('systems/systemI...', Array, true)
+#4 /home/baliwagctserv2/public_html/blink/app/Controllers/Systems.php(69): view('systems/systemI...', Array)
+#5 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Systems->system_info('assets', 'media', 'avatars', '300-11.jpg')
+#6 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Systems))
+#7 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/baliwagctserv2/public_html/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-31 15:43:00 --> Trying to access array offset on value of type bool
+#0 /home/baliwagctserv2/public_html/blink/app/Views/systems/systemInfo.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/baliwagct...', 45)
+#1 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/baliwagct...')
+#2 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('systems/systemI...', Array, true)
+#4 /home/baliwagctserv2/public_html/blink/app/Controllers/Systems.php(69): view('systems/systemI...', Array)
+#5 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Systems->system_info('assets', 'media', 'avatars', '300-7.jpg')
+#6 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Systems))
+#7 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/baliwagctserv2/public_html/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-31 15:43:00 --> Trying to access array offset on value of type bool
+#0 /home/baliwagctserv2/public_html/blink/app/Views/systems/systemInfo.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/baliwagct...', 45)
+#1 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/baliwagct...')
+#2 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('systems/systemI...', Array, true)
+#4 /home/baliwagctserv2/public_html/blink/app/Controllers/Systems.php(69): view('systems/systemI...', Array)
+#5 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Systems->system_info('assets', 'media', 'avatars', '300-20.jpg')
+#6 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Systems))
+#7 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/baliwagctserv2/public_html/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-31 15:43:01 --> Trying to access array offset on value of type bool
+#0 /home/baliwagctserv2/public_html/blink/app/Views/systems/systemInfo.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/baliwagct...', 45)
+#1 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/baliwagct...')
+#2 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('systems/systemI...', Array, true)
+#4 /home/baliwagctserv2/public_html/blink/app/Controllers/Systems.php(69): view('systems/systemI...', Array)
+#5 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Systems->system_info('assets', 'media', 'avatars', '300-2.jpg')
+#6 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Systems))
+#7 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/baliwagctserv2/public_html/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-31 15:43:01 --> Trying to access array offset on value of type bool
+#0 /home/baliwagctserv2/public_html/blink/app/Views/systems/systemInfo.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/baliwagct...', 45)
+#1 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/baliwagct...')
+#2 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('systems/systemI...', Array, true)
+#4 /home/baliwagctserv2/public_html/blink/app/Controllers/Systems.php(69): view('systems/systemI...', Array)
+#5 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Systems->system_info('assets', 'media', 'avatars', '300-12.jpg')
+#6 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Systems))
+#7 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/baliwagctserv2/public_html/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-31 15:43:43 --> Trying to access array offset on value of type bool
+#0 /home/baliwagctserv2/public_html/blink/app/Views/systems/systemInfo.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/baliwagct...', 45)
+#1 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/baliwagct...')
+#2 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('systems/systemI...', Array, true)
+#4 /home/baliwagctserv2/public_html/blink/app/Controllers/Systems.php(69): view('systems/systemI...', Array)
+#5 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Systems->system_info('assets', 'media', 'avatars', '300-7.jpg')
+#6 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Systems))
+#7 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/baliwagctserv2/public_html/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-31 15:43:43 --> Trying to access array offset on value of type bool
+#0 /home/baliwagctserv2/public_html/blink/app/Views/systems/systemInfo.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/baliwagct...', 45)
+#1 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/baliwagct...')
+#2 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('systems/systemI...', Array, true)
+#4 /home/baliwagctserv2/public_html/blink/app/Controllers/Systems.php(69): view('systems/systemI...', Array)
+#5 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Systems->system_info('assets', 'media', 'avatars', '300-20.jpg')
+#6 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Systems))
+#7 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/baliwagctserv2/public_html/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-31 15:43:43 --> Trying to access array offset on value of type bool
+#0 /home/baliwagctserv2/public_html/blink/app/Views/systems/systemInfo.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/baliwagct...', 45)
+#1 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/baliwagct...')
+#2 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('systems/systemI...', Array, true)
+#4 /home/baliwagctserv2/public_html/blink/app/Controllers/Systems.php(69): view('systems/systemI...', Array)
+#5 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Systems->system_info('assets', 'media', 'avatars', '300-11.jpg')
+#6 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Systems))
+#7 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/baliwagctserv2/public_html/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-31 15:43:43 --> Trying to access array offset on value of type bool
+#0 /home/baliwagctserv2/public_html/blink/app/Views/systems/systemInfo.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/baliwagct...', 45)
+#1 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/baliwagct...')
+#2 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('systems/systemI...', Array, true)
+#4 /home/baliwagctserv2/public_html/blink/app/Controllers/Systems.php(69): view('systems/systemI...', Array)
+#5 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Systems->system_info('assets', 'media', 'avatars', '300-2.jpg')
+#6 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Systems))
+#7 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/baliwagctserv2/public_html/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-31 15:43:44 --> Trying to access array offset on value of type bool
+#0 /home/baliwagctserv2/public_html/blink/app/Views/systems/systemInfo.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/baliwagct...', 45)
+#1 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/baliwagct...')
+#2 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('systems/systemI...', Array, true)
+#4 /home/baliwagctserv2/public_html/blink/app/Controllers/Systems.php(69): view('systems/systemI...', Array)
+#5 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Systems->system_info('assets', 'media', 'avatars', '300-12.jpg')
+#6 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Systems))
+#7 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/baliwagctserv2/public_html/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-31 15:46:20 --> Trying to access array offset on value of type bool
+#0 /home/baliwagctserv2/public_html/blink/app/Views/systems/systemInfo.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/baliwagct...', 45)
+#1 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/baliwagct...')
+#2 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('systems/systemI...', Array, true)
+#4 /home/baliwagctserv2/public_html/blink/app/Controllers/Systems.php(69): view('systems/systemI...', Array)
+#5 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Systems->system_info('assets', 'media', 'avatars', '300-11.jpg')
+#6 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Systems))
+#7 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/baliwagctserv2/public_html/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-31 15:46:20 --> Trying to access array offset on value of type bool
+#0 /home/baliwagctserv2/public_html/blink/app/Views/systems/systemInfo.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/baliwagct...', 45)
+#1 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/baliwagct...')
+#2 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('systems/systemI...', Array, true)
+#4 /home/baliwagctserv2/public_html/blink/app/Controllers/Systems.php(69): view('systems/systemI...', Array)
+#5 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Systems->system_info('assets', 'media', 'avatars', '300-7.jpg')
+#6 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Systems))
+#7 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/baliwagctserv2/public_html/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-31 15:46:20 --> Trying to access array offset on value of type bool
+#0 /home/baliwagctserv2/public_html/blink/app/Views/systems/systemInfo.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/baliwagct...', 45)
+#1 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/baliwagct...')
+#2 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('systems/systemI...', Array, true)
+#4 /home/baliwagctserv2/public_html/blink/app/Controllers/Systems.php(69): view('systems/systemI...', Array)
+#5 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Systems->system_info('assets', 'media', 'avatars', '300-12.jpg')
+#6 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Systems))
+#7 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/baliwagctserv2/public_html/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-31 15:46:21 --> Trying to access array offset on value of type bool
+#0 /home/baliwagctserv2/public_html/blink/app/Views/systems/systemInfo.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/baliwagct...', 45)
+#1 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/baliwagct...')
+#2 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('systems/systemI...', Array, true)
+#4 /home/baliwagctserv2/public_html/blink/app/Controllers/Systems.php(69): view('systems/systemI...', Array)
+#5 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Systems->system_info('assets', 'media', 'avatars', '300-20.jpg')
+#6 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Systems))
+#7 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/baliwagctserv2/public_html/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-31 15:46:21 --> Trying to access array offset on value of type bool
+#0 /home/baliwagctserv2/public_html/blink/app/Views/systems/systemInfo.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/baliwagct...', 45)
+#1 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/baliwagct...')
+#2 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('systems/systemI...', Array, true)
+#4 /home/baliwagctserv2/public_html/blink/app/Controllers/Systems.php(69): view('systems/systemI...', Array)
+#5 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Systems->system_info('assets', 'media', 'avatars', '300-2.jpg')
+#6 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Systems))
+#7 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/baliwagctserv2/public_html/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-31 16:24:41 --> foreach() argument must be of type array|object, null given
+#0 /home/baliwagctserv2/public_html/blink/app/Controllers/Aics/Transactions.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', '/home/baliwagct...', 41)
+#1 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->add_transaction()
+#2 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#3 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/baliwagctserv2/public_html/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-31 16:24:51 --> Trying to access array offset on value of type null
+#0 /home/baliwagctserv2/public_html/blink/app/Controllers/Aics/Transactions.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/home/baliwagct...', 27)
+#1 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->add_transaction()
+#2 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#3 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/baliwagctserv2/public_html/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-31 16:25:49 --> foreach() argument must be of type array|object, null given
+#0 /home/baliwagctserv2/public_html/blink/app/Controllers/Aics/Transactions.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', '/home/baliwagct...', 41)
+#1 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->add_transaction()
+#2 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#3 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/baliwagctserv2/public_html/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}

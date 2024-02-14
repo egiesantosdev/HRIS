@@ -1,0 +1,51 @@
+CRITICAL - 2023-09-13 10:47:27 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/senior/senior/...')
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/senior/senior/...')
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-13 13:33:03 --> Undefined variable $data
+#0 C:\xampp\htdocs\blink\app\Controllers\Senior\Senior.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 112)
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Senior\Senior->deleteSeniorSignature('1')
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Senior\Senior))
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-13 13:35:57 --> Undefined array key "ends_with"
+#0 C:\xampp\htdocs\blink\app\Controllers\UtilController.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 142)
+#1 C:\xampp\htdocs\blink\app\Controllers\Senior\Senior.php(119): App\Controllers\UtilController->deleteFilesOn('public/assets/m...', Array)
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Senior\Senior->deleteSeniorSignature('1')
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Senior\Senior))
+#4 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-09-13 13:57:59 --> syntax error, unexpected token ":"
+#0 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 C:\xampp\htdocs\blink\app\Controllers\Senior\Senior.php(25): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Senior\Senior->add_senior()
+#4 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Senior\Senior))
+#5 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-13 13:59:33 --> in_array(): Argument #2 ($haystack) must be of type array, string given
+#0 C:\xampp\htdocs\blink\app\Controllers\UtilController.php(153): in_array(Array, 'C:/xampp/htdocs...')
+#1 C:\xampp\htdocs\blink\app\Controllers\Senior\Senior.php(119): App\Controllers\UtilController->deleteFilesOn('public/assets/m...', Array)
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Senior\Senior->deleteSeniorSignature('1')
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Senior\Senior))
+#4 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-09-13 14:39:26 --> Call to undefined method App\Controllers\UtilController::userBarangaysCitiesAndProvinces()
+#0 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Dashboard->profile()
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-09-13 14:42:57 --> Call to undefined method App\Controllers\UtilController::userBarangaysCitiesAndProvinces()
+#0 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Dashboard->profile()
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}

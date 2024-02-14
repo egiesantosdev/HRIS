@@ -1,0 +1,118 @@
+CRITICAL - 2023-05-30 09:26:41 --> syntax error, unexpected 'if' (T_IF), expecting variable (T_VARIABLE) or '{' or '$'
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('/hris/employee/...')
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/hris/employee/...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-05-30 11:23:26 --> Table 'baliwagc_systems_db.employment_status' doesn't exist
+ERROR - 2023-05-30 11:23:26 --> Table 'baliwagc_systems_db.employment_status' doesn't exist
+CRITICAL - 2023-05-30 11:23:26 --> Trying to get property 'dept_id' of non-object
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/hris/employees/employee_profile.php(305): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 305, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('hris/employees/...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(215): view('hris/employees/...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->employee_profile('828')
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-30 11:23:41 --> Table 'baliwagc_systems_db.employment_status' doesn't exist
+ERROR - 2023-05-30 11:23:41 --> Table 'baliwagc_systems_db.employment_status' doesn't exist
+CRITICAL - 2023-05-30 11:23:41 --> Trying to get property 'dept_id' of non-object
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/hris/employees/employee_profile.php(305): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 305, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('hris/employees/...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(215): view('hris/employees/...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->employee_profile('828')
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-30 11:23:48 --> Table 'baliwagc_systems_db.employment_status' doesn't exist
+ERROR - 2023-05-30 11:23:48 --> Table 'baliwagc_systems_db.employment_status' doesn't exist
+ERROR - 2023-05-30 11:24:43 --> Table 'baliwagc_systems_db.employment_status' doesn't exist
+ERROR - 2023-05-30 11:24:43 --> Table 'baliwagc_systems_db.employment_status' doesn't exist
+CRITICAL - 2023-05-30 11:24:43 --> Trying to get property 'es_description' of non-object
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/hris/employees/employee_profile.php(305): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 305, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('hris/employees/...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(215): view('hris/employees/...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->employee_profile('828')
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-30 11:25:13 --> Table 'baliwagc_systems_db.employment_status' doesn't exist
+ERROR - 2023-05-30 11:25:13 --> Table 'baliwagc_systems_db.employment_status' doesn't exist
+CRITICAL - 2023-05-30 11:25:13 --> Trying to get property 'es_description' of non-object
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/hris/employees/employee_profile.php(305): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 305, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('hris/employees/...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(215): view('hris/employees/...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->employee_profile('828')
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-30 11:25:25 --> Table 'baliwagc_systems_db.employment_status' doesn't exist
+ERROR - 2023-05-30 11:25:25 --> Table 'baliwagc_systems_db.employment_status' doesn't exist
+CRITICAL - 2023-05-30 11:25:25 --> Trying to get property 'es_description' of non-object
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/hris/employees/employee_profile.php(305): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 305, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('hris/employees/...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(215): view('hris/employees/...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->employee_profile('828')
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-30 11:25:48 --> Table 'baliwagc_systems_db.employment_status' doesn't exist
+ERROR - 2023-05-30 11:25:48 --> Table 'baliwagc_systems_db.employment_status' doesn't exist
+CRITICAL - 2023-05-30 11:25:48 --> Trying to get property 'es_description' of non-object
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/hris/employees/employee_profile.php(305): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 305, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('hris/employees/...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(215): view('hris/employees/...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->employee_profile('828')
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-30 11:25:49 --> Table 'baliwagc_systems_db.employment_status' doesn't exist
+ERROR - 2023-05-30 11:25:49 --> Table 'baliwagc_systems_db.employment_status' doesn't exist
+CRITICAL - 2023-05-30 11:25:49 --> Trying to get property 'es_description' of non-object
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Views/hris/employees/employee_profile.php(305): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 305, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('hris/employees/...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(215): view('hris/employees/...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->employee_profile('828')
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-30 11:26:03 --> Table 'baliwagc_systems_db.employment_status' doesn't exist
+ERROR - 2023-05-30 11:26:03 --> Table 'baliwagc_systems_db.employment_status' doesn't exist
+ERROR - 2023-05-30 11:26:03 --> Table 'baliwagc_systems_db.employment_status' doesn't exist
+CRITICAL - 2023-05-30 11:26:46 --> Undefined variable: masterModel
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Libraries/TemplateLib.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 65, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(18): App\Libraries\TemplateLib::employment_status()
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Hris\Employee->__construct()
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-30 14:38:51 --> Undefined variable: hrisModel
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(318): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 318, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->updateProfile('828')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,183 @@
+ERROR - 2023-12-04 08:45:05 --> Error connecting to the database: Unknown database 'baliwagc_blink_db'
+CRITICAL - 2023-12-04 08:45:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'baliwagc_blink_db'
+#0 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\blink\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(156): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\blink\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#6 C:\xampp\htdocs\blink\vendor\myth\auth\src\Controllers\AuthController.php(91): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#7 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptLogin()
+#8 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-12-04 13:54:02 --> Error connecting to the database: Unknown database 'baliwagctserv2_blink_db'
+CRITICAL - 2023-12-04 13:54:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'baliwagctserv2_blink_db'
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(156): CodeIgniter\BaseModel->first()
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#6 /Applications/MAMP/htdocs/baliwag/blink/vendor/myth/auth/src/Controllers/AuthController.php(91): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#7 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptLogin()
+#8 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-12-04 13:54:38 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2023-12-04 13:54:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/baliwag/blink/app/Models/CitizensModel.php(178): CodeIgniter\Database\BaseConnection->query('\n            SE...')
+#2 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Bhims/Dashboard.php(20): App\Models\CitizensModel->customQuery('\n            SE...')
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Bhims\Dashboard->index()
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bhims\Dashboard))
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-04 13:56:41 --> Undefined array key "activeSystem"
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Dashboard.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/M...', 51)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Dashboard->access('6')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Dashboard))
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-04 13:57:43 --> Class "App\Controllers\TemplateLib" not found
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(810): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-12-04 13:57:58 --> Call to undefined function baes_url()
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('rbi/citizens/ci...', Array, true)
+#3 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Citizens.php(16): view('rbi/citizens/ci...', Array)
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Citizens->index()
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Citizens))
+#6 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-12-04 13:58:05 --> Undefined property: App\Controllers\Rbi\Citizens::$citizensModal
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Citizens.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 24)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Citizens->getCitizens()
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Citizens))
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-04 13:58:19 --> Undefined property: App\Controllers\Rbi\Citizens::$citizensModal
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Citizens.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 24)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Citizens->getCitizens()
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Citizens))
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-12-04 14:01:44 --> Incorrect parameter count in the call to native function 'DATE_FORMAT'
+CRITICAL - 2023-12-04 14:01:44 --> Incorrect parameter count in the call to native function 'DATE_FORMAT'
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `member_...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `member_...')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `member_...')
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `member_...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(219): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Citizens.php(47): Hermawan\DataTables\DataTable->toJson(true)
+#8 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Citizens->getCitizens()
+#9 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Citizens))
+#10 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-04 14:06:43 --> Cannot declare class App\Controllers\Rbi\Citizens, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-12-04 14:07:12 --> Invalid file: rbi/blotter/blotterRecords.php
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rbi/blotter/blo...')
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('rbi/blotter/blo...', Array, true)
+#2 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Blotter.php(16): view('rbi/blotter/blo...', Array)
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Blotter->index()
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Blotter))
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-04 14:07:40 --> Invalid file: rbi/blotter/blotterRecords.php
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rbi/blotter/blo...')
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('rbi/blotter/blo...', Array, true)
+#2 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Blotter.php(16): view('rbi/blotter/blo...', Array)
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Blotter->index()
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Blotter))
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-04 14:07:41 --> Invalid file: rbi/blotter/blotterRecords.php
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rbi/blotter/blo...')
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('rbi/blotter/blo...', Array, true)
+#2 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Blotter.php(16): view('rbi/blotter/blo...', Array)
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Blotter->index()
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Blotter))
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-04 14:43:06 --> Undefined variable $total_barangay_members
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Views/bhims/dashboards/household.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 103)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('bhims/dashboard...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Bhims/Household.php(25): view('bhims/dashboard...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Bhims\Household->index()
+#6 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bhims\Household))
+#7 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-04 16:18:26 --> Incorrect parameter count in the call to native function 'DATE_FORMAT'
+CRITICAL - 2023-12-04 16:18:26 --> Incorrect parameter count in the call to native function 'DATE_FORMAT'
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(63): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(175): Hermawan\DataTables\DataTableQuery->countFiltered()
+#6 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Citizens.php(45): Hermawan\DataTables\DataTable->toJson(true)
+#7 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Citizens->getCitizens()
+#8 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Citizens))
+#9 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-12-04 16:19:00 --> Incorrect parameter count in the call to native function 'DATE_FORMAT'
+CRITICAL - 2023-12-04 16:19:00 --> Incorrect parameter count in the call to native function 'DATE_FORMAT'
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(63): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(175): Hermawan\DataTables\DataTableQuery->countFiltered()
+#6 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Citizens.php(45): Hermawan\DataTables\DataTable->toJson(true)
+#7 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Citizens->getCitizens()
+#8 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Citizens))
+#9 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-12-04 16:19:06 --> Incorrect parameter count in the call to native function 'DATE_FORMAT'
+CRITICAL - 2023-12-04 16:19:06 --> Incorrect parameter count in the call to native function 'DATE_FORMAT'
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(63): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(175): Hermawan\DataTables\DataTableQuery->countFiltered()
+#6 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Citizens.php(45): Hermawan\DataTables\DataTable->toJson(true)
+#7 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Citizens->getCitizens()
+#8 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Citizens))
+#9 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-04 16:33:25 --> syntax error, unexpected single-quoted string "">Set as <span class = "text-d...", expecting ";"
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('/rbi/blotter/ad...')
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/rbi/blotter/ad...')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}

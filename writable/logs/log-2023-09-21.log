@@ -1,0 +1,4 @@
+CRITICAL - 2023-09-21 14:39:33 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\blink\index.php(29): require('C:\\xampp\\htdocs...')
+#2 {main}

@@ -1,0 +1,20 @@
+CRITICAL - 2024-01-11 10:23:36 --> Invalid file: Myth\Auth\Views\other\buildingPermitSearchPage.php
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Myth\\Auth\\Views...')
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('Myth\\Auth\\Views...', Array, true)
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/myth/auth/src/Controllers/AuthController.php(435): view('Myth\\Auth\\Views...', Array)
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/myth/auth/src/Controllers/AuthController.php(439): Myth\Auth\Controllers\AuthController->_render('Myth\\Auth\\Views...', Array)
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->searchApplication()
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#6 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-11 14:46:38 --> Invalid file: Myth\Auth\Views\others\buildingPermitResult.php
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Myth\\Auth\\Views...')
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('Myth\\Auth\\Views...', Array, true)
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/myth/auth/src/Controllers/AuthController.php(435): view('Myth\\Auth\\Views...', Array)
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/myth/auth/src/Controllers/AuthController.php(443): Myth\Auth\Controllers\AuthController->_render('Myth\\Auth\\Views...', Array)
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->searchResult()
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#6 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}

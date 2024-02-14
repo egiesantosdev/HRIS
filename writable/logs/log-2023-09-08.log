@@ -1,0 +1,7 @@
+CRITICAL - 2023-09-08 13:43:58 --> foreach() argument must be of type array|object, null given
+#0 /home/baliwagctserv2/public_html/blink/app/Controllers/Aics/Transactions.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', '/home/baliwagct...', 41)
+#1 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->add_transaction()
+#2 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#3 /home/baliwagctserv2/public_html/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/baliwagctserv2/public_html/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}

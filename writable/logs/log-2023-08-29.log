@@ -1,0 +1,12 @@
+ERROR - 2023-08-29 13:43:47 --> Column 'recommendations' cannot be null
+ERROR - 2023-08-29 13:44:11 --> Column 'recommendations' cannot be null
+ERROR - 2023-08-29 13:44:35 --> Column 'recommendations' cannot be null
+ERROR - 2023-08-29 13:44:42 --> Column 'recommendations' cannot be null
+ERROR - 2023-08-29 13:44:42 --> Column 'recommendations' cannot be null
+CRITICAL - 2023-08-29 14:56:05 --> Undefined property: stdClass::$brgy_id
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Dashboard.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 106, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Dashboard->profile()
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}

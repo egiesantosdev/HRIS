@@ -1,0 +1,73 @@
+ERROR - 2024-01-02 16:44:21 --> Unknown column 'D_16_Q' in 'field list'
+CRITICAL - 2024-01-02 16:45:17 --> Undefined variable $caseInfo
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Aics/Transactions.php(503): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 503)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->addCaseStudy('BAL-210225-0000...')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-01-02 16:46:43 --> Unknown column 'D_16_Q' in 'field list'
+CRITICAL - 2024-01-02 16:46:43 --> Attempt to read property "family_id" on string
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Aics/Transactions.php(554): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 554)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->printCaseStudy('4')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-01-02 16:46:49 --> Unknown column 'D_16_Q' in 'field list'
+CRITICAL - 2024-01-02 16:46:49 --> Attempt to read property "family_id" on string
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Aics/Transactions.php(554): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 554)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->printCaseStudy('1')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-01-02 16:47:00 --> Unknown column 'D_16_Q' in 'field list'
+CRITICAL - 2024-01-02 16:47:00 --> Attempt to read property "family_id" on string
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Aics/Transactions.php(554): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 554)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->printCaseStudy('1')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-01-02 16:54:41 --> Unknown column 'D_16_Q' in 'field list'
+CRITICAL - 2024-01-02 16:54:47 --> Undefined variable $individualInfo
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Aics/Transactions.php(509): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/M...', 509)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->addCaseStudy('BAL-210225-0000...')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-01-02 16:56:36 --> Unknown column 'D_16_Q' in 'field list'
+CRITICAL - 2024-01-02 16:56:36 --> Attempt to read property "family_id" on string
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Aics/Transactions.php(554): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 554)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->printCaseStudy('5')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-01-02 16:57:31 --> Column 'family_id' in field list is ambiguous
+CRITICAL - 2024-01-02 16:57:31 --> Attempt to read property "family_id" on string
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Aics/Transactions.php(554): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/M...', 554)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->printCaseStudy('5')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-01-02 16:58:20 --> Unknown column 'D_16_Q' in 'field list'
+ERROR - 2024-01-02 16:59:24 --> Unknown column 'D_16_Q' in 'field list'
+ERROR - 2024-01-02 16:59:30 --> Unknown column 'F_31_Q' in 'field list'
+ERROR - 2024-01-02 17:00:02 --> Unknown column 'D_16_Q' in 'field list'
+ERROR - 2024-01-02 17:01:30 --> Unknown column 'D_16_Q' in 'field list'
+ERROR - 2024-01-02 17:01:34 --> Unknown column 'D_16_Q' in 'field list'
+CRITICAL - 2024-01-02 17:02:05 --> Undefined property: stdClass::$salary
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Views/aics/prints/caseStudy.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/M...', 136)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('aics/prints/cas...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Aics/Transactions.php(562): view('aics/prints/cas...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Transactions->printCaseStudy('5')
+#6 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Transactions))
+#7 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,27 @@
+.swal2-icon-success .swal2-icon{
+    margin-top: 0;
+    transform: scale(.5);
+    transform-origin: bottom;
+}
+
+.swal2-icon-warning .swal2-icon{
+    height: 2.5em;
+    width: 2.5em;
+}
+.swal2-icon-warning .swal2-icon .swal2-icon-content{
+    font-size: 1.875em;
+
+}
+
+.swal2-icon-question .swal2-icon{
+    height: 2.5em;
+    width: 2.5em;
+}
+.swal2-icon-question .swal2-icon .swal2-icon-content{
+    font-size: 1.875em;
+
+}
+
+.fixedHeader-floating{
+    background-color: var(--kt-body-bg) !important;
+}

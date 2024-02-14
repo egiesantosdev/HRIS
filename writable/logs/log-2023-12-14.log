@@ -1,0 +1,27 @@
+CRITICAL - 2023-12-14 14:46:01 --> Too few arguments to function App\Models\RbiModel::update(), 3 passed in /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Configurations.php on line 101 and exactly 4 expected
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Configurations.php(101): App\Models\RbiModel->update('barangay_config', Array, Array)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Configurations->updateConfigurations()
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Configurations))
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-14 14:47:14 --> Undefined variable: rbiModel
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Configurations.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 101, Array)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Configurations->updateConfigurations()
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Configurations))
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-12-14 14:53:18 --> Unknown column 'updated_by' in 'field list'
+CRITICAL - 2023-12-14 14:58:52 --> Undefined property: stdClass::$barangay_name
+#0 /Applications/MAMP/htdocs/baliwag/blink/app/Views/rbi/configurations/configView.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 42, Array)
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('rbi/configurati...', Array, true)
+#4 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Rbi/Configurations.php(18): view('rbi/configurati...', Array)
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Rbi\Configurations->index()
+#6 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rbi\Configurations))
+#7 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-14 21:16:19 --> Unknown column 'updated_by' in 'field list'

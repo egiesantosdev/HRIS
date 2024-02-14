@@ -1,0 +1,22 @@
+CRITICAL - 2023-10-02 08:43:26 --> Attempt to read property "image_filename" on string
+#0 C:\xampp\htdocs\blink\app\Views\senior\modules\test.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 122)
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('senior/modules/...', Array, true)
+#4 C:\xampp\htdocs\blink\app\Controllers\Senior\Senior.php(39): view('senior/modules/...', Array)
+#5 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Senior\Senior->test()
+#6 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Senior\Senior))
+#7 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 08:44:11 --> Attempt to read property "signature_filename" on string
+#0 C:\xampp\htdocs\blink\app\Views\senior\modules\test.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 224)
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('senior/modules/...', Array, true)
+#4 C:\xampp\htdocs\blink\app\Controllers\Senior\Senior.php(39): view('senior/modules/...', Array)
+#5 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Senior\Senior->test()
+#6 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Senior\Senior))
+#7 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}

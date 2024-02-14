@@ -1,0 +1,29 @@
+CRITICAL - 2023-11-09 08:55:17 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/bhims/househol...')
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/bhims/househol...')
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-09 10:08:16 --> Undefined array key "Single"
+#0 C:\xampp\htdocs\blink\app\Views\bhims\dashboards\household.php(254): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 254)
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('bhims/dashboard...', Array, true)
+#4 C:\xampp\htdocs\blink\app\Controllers\Bhims\Dashboard.php(134): view('bhims/dashboard...', Array)
+#5 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Bhims\Dashboard->index()
+#6 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bhims\Dashboard))
+#7 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-09 10:10:02 --> Undefined array key "Common-law/Live-in"
+#0 C:\xampp\htdocs\blink\app\Views\bhims\dashboards\household.php(255): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 255)
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('bhims/dashboard...', Array, true)
+#4 C:\xampp\htdocs\blink\app\Controllers\Bhims\Dashboard.php(134): view('bhims/dashboard...', Array)
+#5 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Bhims\Dashboard->index()
+#6 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bhims\Dashboard))
+#7 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}

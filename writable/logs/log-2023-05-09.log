@@ -1,0 +1,96 @@
+CRITICAL - 2023-05-09 14:06:58 --> Undefined property: stdClass::$employee_id
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 106, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->addAttendance()
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-09 14:10:54 --> Undefined property: stdClass::$employee_id
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 106, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->addAttendance()
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-09 14:11:41 --> Undefined property: stdClass::$employee_id
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/M...', 106, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->addAttendance()
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-05-09 15:02:01 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+CRITICAL - 2023-05-09 15:02:01 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `auth_gr...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `auth_gr...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `auth_gr...')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `auth_gr...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Authorization/GroupModel.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Collectors/Auth.php(67): Myth\Auth\Authorization\GroupModel->getGroupsForUser(3)
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/BaseCollector.php(224): Myth\Auth\Collectors\Auth->display()
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(90): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#8 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(368): CodeIgniter\Debug\Toolbar->run(1683615721.7487, 0.0558, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#9 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#10 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#11 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/hris/employee/...', 'after')
+#12 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-05-09 15:05:21 --> Undefined variable: getEmployeeInfo
+#0 /Applications/MAMP/htdocs/baliwag/systems/app/Controllers/Hris/Employee.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 139, Array)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Hris\Employee->outAttendance()
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hris\Employee))
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-05-09 15:07:13 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+CRITICAL - 2023-05-09 15:07:13 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `auth_gr...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `auth_gr...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `auth_gr...')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `auth_gr...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Authorization/GroupModel.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Collectors/Auth.php(67): Myth\Auth\Authorization\GroupModel->getGroupsForUser(3)
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/BaseCollector.php(224): Myth\Auth\Collectors\Auth->display()
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(90): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#8 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(368): CodeIgniter\Debug\Toolbar->run(1683616033.9426, 0.0519, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#9 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#10 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#11 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/hris/employee/...', 'after')
+#12 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-05-09 15:28:51 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+CRITICAL - 2023-05-09 15:28:51 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `auth_gr...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `auth_gr...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `auth_gr...')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `auth_gr...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Authorization/GroupModel.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Collectors/Auth.php(67): Myth\Auth\Authorization\GroupModel->getGroupsForUser(3)
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/BaseCollector.php(224): Myth\Auth\Collectors\Auth->display()
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(90): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#8 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(368): CodeIgniter\Debug\Toolbar->run(1683617331.2725, 0.0496, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#9 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#10 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#11 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/hris/employee/...', 'after')
+#12 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-05-09 15:46:45 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+CRITICAL - 2023-05-09 15:46:45 --> Table 'baliwagc_hris_db.auth_groups' doesn't exist
+#0 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `auth_gr...', 0)
+#1 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `auth_gr...')
+#2 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `auth_gr...')
+#3 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `auth_gr...', Array, false)
+#4 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Authorization/GroupModel.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/baliwag/systems/vendor/myth/auth/src/Collectors/Auth.php(67): Myth\Auth\Authorization\GroupModel->getGroupsForUser(3)
+#6 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/BaseCollector.php(224): Myth\Auth\Collectors\Auth->display()
+#7 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(90): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#8 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Debug/Toolbar.php(368): CodeIgniter\Debug\Toolbar->run(1683618405.0665, 0.0467, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#9 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#10 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#11 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/hris/employee/...', 'after')
+#12 /Applications/MAMP/htdocs/baliwag/systems/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Applications/MAMP/htdocs/baliwag/systems/index.php(38): CodeIgniter\CodeIgniter->run()
+#14 {main}

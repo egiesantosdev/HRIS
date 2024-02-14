@@ -1,0 +1,12 @@
+ERROR - 2024-01-05 15:02:09 --> Error connecting to the database: Operation timed out
+CRITICAL - 2024-01-05 15:02:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Operation timed out
+#0 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/baliwag/blink/app/Models/AicsModel.php(39): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/baliwag/blink/app/Controllers/Aics/Dashboard.php(44): App\Models\AicsModel->get('partners', '*', Array)
+#4 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Aics\Dashboard->access('5')
+#5 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aics\Dashboard))
+#6 /Applications/MAMP/htdocs/baliwag/blink/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/baliwag/blink/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,72 @@
+CRITICAL - 2023-09-18 14:45:30 --> Optional parameter $qrcode declared before required parameter $file_name is implicitly treated as a required parameter
+#0 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Router\Router.php(518): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parame...', 'C:\\xampp\\htdocs...', 118)
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Router\Router.php(518): include_once()
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/senior/senior/...')
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/senior/senior/...')
+#4 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-18 14:46:14 --> Optional parameter $qrcode declared before required parameter $file_name is implicitly treated as a required parameter
+#0 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Router\Router.php(518): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parame...', 'C:\\xampp\\htdocs...', 585)
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Router\Router.php(518): include_once()
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/bhims/househol...')
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/bhims/househol...')
+#4 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-18 14:46:15 --> Optional parameter $qrcode declared before required parameter $file_name is implicitly treated as a required parameter
+#0 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Router\Router.php(518): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parame...', 'C:\\xampp\\htdocs...', 585)
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Router\Router.php(518): include_once()
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/bhims/househol...')
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/bhims/househol...')
+#4 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-18 14:46:16 --> Optional parameter $qrcode declared before required parameter $file_name is implicitly treated as a required parameter
+#0 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Router\Router.php(518): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parame...', 'C:\\xampp\\htdocs...', 585)
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Router\Router.php(518): include_once()
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/bhims/househol...')
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/bhims/househol...')
+#4 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-18 14:46:16 --> Optional parameter $qrcode declared before required parameter $file_name is implicitly treated as a required parameter
+#0 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Router\Router.php(518): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parame...', 'C:\\xampp\\htdocs...', 585)
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Router\Router.php(518): include_once()
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/bhims/househol...')
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/bhims/househol...')
+#4 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-18 14:46:16 --> Optional parameter $qrcode declared before required parameter $file_name is implicitly treated as a required parameter
+#0 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Router\Router.php(518): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parame...', 'C:\\xampp\\htdocs...', 585)
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Router\Router.php(518): include_once()
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/bhims/househol...')
+#3 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/bhims/househol...')
+#4 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-18 14:46:48 --> Too few arguments to function App\Controllers\Senior\Senior::uploadSeniorPhoto(), 0 passed in C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Senior\Senior->uploadSeniorPhoto()
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Senior\Senior))
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-09-18 14:48:27 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Senior\Senior->uploadSeniorPhoto('BAL-210225-0000...')
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Senior\Senior))
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-09-18 14:49:03 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Senior\Senior->uploadSeniorPhoto('BAL-210225-0002...')
+#1 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Senior\Senior))
+#2 C:\xampp\htdocs\blink\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\blink\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
